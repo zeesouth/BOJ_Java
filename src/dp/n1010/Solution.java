@@ -33,8 +33,4 @@ public class Solution {
 
         }
     }
-
-    static boolean isValid(int y, int x) {
-        return y >=0 && y < M && x >= 0 && x < N;
-    }
 }
