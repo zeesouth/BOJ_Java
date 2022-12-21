@@ -21,3 +21,12 @@
 </pre>
 </div>
 </details>
+
+<details>
+<summary><a href="acmicpc.net/problemset?sort=ac_desc&algo=124">수학</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://www.acmicpc.net/problem/2417">2471. 정수 제곱근</a>
+</pre>
+</div>
+</details>
