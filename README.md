@@ -7,6 +7,7 @@
 <pre>
 - <a href="https://www.acmicpc.net/problem/1010">1010. 다리 놓기</a>
 - <a href="https://www.acmicpc.net/problem/2839">2839. 설탕 배달</a>
+- <a href="https://www.acmicpc.net/problem/1463">1463. 1로 만들기</a>
 </pre>
 </div>
 </details>
