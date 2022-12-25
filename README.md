@@ -37,6 +37,7 @@
 <pre>
 - <a href="https://www.acmicpc.net/problem/2042">2042. 구간 합 구하기</a>
 - <a href="https://www.acmicpc.net/problem/11505">11505. 구간 곱 구하기</a>
+- <a href="https://www.acmicpc.net/problem/2357">2357. 최솟값과 최댓값</a>
 - <a href="https://www.acmicpc.net/problem/24915">24915. 센터가 돋보여야 해</a>
 </pre>
 </div>
