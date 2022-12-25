@@ -35,6 +35,7 @@
 <summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=65">세그먼트 트리</a></summary>
 <div markdown="1">       
 <pre>
+- <a href="https://www.acmicpc.net/problem/2042">2042. 구간 합 구하기</a>
 - <a href="https://www.acmicpc.net/problem/24915">24915. 센터가 돋보여야 해</a>
 </pre>
 </div>
