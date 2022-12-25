@@ -2,7 +2,7 @@
 
 <a href="https://www.acmicpc.net/problem/tags">백준 알고리즘 분류</a>
 <details>
-<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=25">DP</a></summary>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=25"> DP</a></summary>
 <div markdown="1">       
 <pre>
 - <a href="https://www.acmicpc.net/problem/1010">1010. 다리 놓기</a>
@@ -14,7 +14,7 @@
 </details>
 
 <details>
-<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=158">문자열</a></summary>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=158"> 문자열</a></summary>
 <div markdown="1">       
 <pre>
 - <a href="https://www.acmicpc.net/problem/4458">4458. 첫 글자를 대문자로</a>
@@ -23,7 +23,7 @@
 </details>
 
 <details>
-<summary><a href="acmicpc.net/problemset?sort=ac_desc&algo=124">수학</a></summary>
+<summary><a href="acmicpc.net/problemset?sort=ac_desc&algo=124"> 수학</a></summary>
 <div markdown="1">       
 <pre>
 - <a href="https://www.acmicpc.net/problem/2417">2471. 정수 제곱근</a>
@@ -32,7 +32,7 @@
 </details>
 
 <details>
-<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=65">세그먼트 트리</a></summary>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=65"> 세그먼트 트리</a></summary>
 <div markdown="1">       
 <pre>
 - <a href="https://www.acmicpc.net/problem/2042">2042. 구간 합 구하기</a>
