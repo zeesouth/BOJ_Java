@@ -42,3 +42,12 @@
 </pre>
 </div>
 </details>
+
+<details>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=11"> 그래프 탐색</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://www.acmicpc.net/problem/2606">2606. 바이러스</a>
+</pre>
+</div>
+</details>
