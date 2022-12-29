@@ -58,7 +58,7 @@
 <div markdown="1">       
 <pre>
 - <a href="https://www.acmicpc.net/problem/11437">11437. LCA</a>
-- <a href="https://www.acmicpc.net/problem/11438">11438. LCA 2</a>
+- <a href="https://www.acmicpc.net/problem/11438">11438. LCA 2</a> (Segment Tree, DP)
 </pre>
 </div>
 </details>
