@@ -48,7 +48,6 @@
 <div markdown="1">       
 <pre>
 - <a href="https://www.acmicpc.net/problem/2606">2606. 바이러스</a>
-- <a href="https://www.acmicpc.net/problem/7576">7576. 토마토</a>
 </pre>
 </div>
 </details>
