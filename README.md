@@ -1,4 +1,6 @@
 # BOJ_Java
+[![Solved.ac
+프로필](http://mazassumnida.wtf/api/generate_badge?boj=anm0307)](https://solved.ac/anm0307)
 
 <a href="https://www.acmicpc.net/problem/tags">백준 알고리즘 분류</a>
 <details>
