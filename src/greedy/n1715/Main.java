@@ -1,7 +1,8 @@
-package greedy;
+package greedy.n1715;
 
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.PriorityQueue;
 
 public class Main {
     static int N, answer;
