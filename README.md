@@ -65,3 +65,12 @@
 </pre>
 </div>
 </details>
+
+<details>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=33"> 그리디</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://www.acmicpc.net/problem/1715">1715. 카드 정렬하기</a>
+</pre>
+</div>
+</details>
