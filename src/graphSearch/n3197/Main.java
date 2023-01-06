@@ -4,11 +4,10 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-    static boolean flag;
-    static int R, C, answer; // answer: 두 백조가 만나는 최소시간
-    static int[][] map, currMap;
+    static int R, C, answer;
+    static int[][] map;
     static boolean[][] visited;
-    static Queue<int[]> q, q2, q3;
+    static Queue<int[]> q1, q2, q3;
     static int[] dx = {-1, 1, 0, 0};
     static int[] dy = {0, 0, -1, 1};
     static int[] a, b;  // 백조 a, b;
@@ -20,7 +19,7 @@ public class Main {
         R = Integer.parseInt(st.nextToken());
         C = Integer.parseInt(st.nextToken());
         map = new int[R][C];
-        q = new LinkedList<>();
+        q1 = new LinkedList<int[]>();
 
         for (int i = 0; i < R; i++) {
             String s = br.readLine();
@@ -31,13 +30,13 @@ public class Main {
                         break;   // 얼음
                     case '.':
                         map[i][j] = 0;
-                        q.add(new int[]{i, j}); // 물 추가
+                        q1.add(new int[]{i, j});
                         break;   // 물
                     case 'L':
                         map[i][j] = -2;           // 백조
-                        q.add(new int[]{i, j}); // 물 추가
                         if (a == null) a = new int[]{i, j};
                         else b = new int[]{i, j};
+                        q1.add(new int[]{i, j});
                 }
             }
         }
@@ -47,58 +46,50 @@ public class Main {
     }
 
     static int bfs() {
-        while(true) {
-            currMap = new int[R][C];
-            visited = new boolean[R][C];
-            for(int i=0;i<map.length;i++) currMap[i] = Arrays.copyOf(map[i], map[i].length);
+        visited = new boolean[R][C];
+        q2 = new LinkedList<>();
+        q2.add(a);
+        visited[a[0]][a[1]] = true;
 
-            q2 = new LinkedList<>();
-            while (!q.isEmpty()) {
-                int[] curr = q.poll();
-                for (int i = 0; i < 4; i++) {
-                    int currY = dy[i] + curr[0];
-                    int currX = dx[i] + curr[1];
-                    if (isValid(currY, currX) && !visited[currY][currX]) {
-                        if (map[currY][currX] == -1) {  // 인근 위치가 얼음인 경우
-                            currMap[currY][currX] = 0;  // 물로 바꾸어줌
-                            q2.add(new int[] {currY, currX});
-                        } else if (map[currY][currX] == 0){
-                            q2.add(new int[] {currY, currX});
-                            visited[currY][currX] = true;
+        while(true) {
+            q3 = new LinkedList<>();
+            while(!q2.isEmpty()) {
+                int[] curr = q2.poll();
+
+                if(curr[0] == b[0] && curr[1] == b[1]) {
+                    return answer;
+                }
+
+                for(int i=0;i<4;i++) {
+                    int currY = curr[0]+dy[i];
+                    int currX = curr[1]+dx[i];
+
+                    // 이동한 위치가 얼음이 아닌 경우
+                    if(isValid(currY, currX) && !visited[currY][currX]) {
+                        visited[currY][currX] = true;
+                        // 백조의 위치인 경우
+                        if (map[currY][currX] == -1) q3.add(new int[] {currY, currX});
+                        else q2.add(new int[] {currY, currX});
+                    }
+                }
+            }
+            q2 = q3;
+            int size = q1.size();
+            for(int j=0;j<size;j++) {
+                int[] curr = q1.poll();
+                for(int i=0;i<4;i++) {
+                    int currY = curr[0]+dy[i];
+                    int currX = curr[1]+dx[i];
+                    if(isValid(currY, currX)) {
+                        if (map[currY][currX] == -1) { // 다음 턴에 물이 되는 곳
+                            map[currY][currX] = 0;
+                            q1.add(new int[]{currY, currX});
                         }
                     }
                 }
             }
             answer++;
-            visited = new boolean[R][C];
-            q3 = new LinkedList<>();
-            q3.add(new int[] {a[0], a[1]});
-            flag = false;
-            while(!q3.isEmpty()) {
-                int[] curr = q3.poll();
-                for(int i=0;i<4;i++) {
-                    int currY = curr[0]+dy[i];
-                    int currX = curr[1]+dx[i];
-                    // 이동한 위치가 얼음이 아닌 경우
-                    if(isValid(currY, currX) && !visited[currY][currX] && currMap[currY][currX] != -1) {
-                        // 백조의 위치인 경우
-                        if(currY == b[0] && currX == b[1]) {
-                            flag = true; break;
-                        }
-                        // 백조의 위치가 아니고 물인 경우
-                        else if (currMap[currY][currX] == 0){
-                            q3.add(new int[] {currY, currX});
-                            visited[currY][currX] = true;
-                        }
-                    }
-                }
-                if(flag) break;
-            }
-            if(flag) break;
-            q = q2;
-            map = currMap;
         }
-        return answer;
     }
 
     static boolean isValid(int y, int x) {
