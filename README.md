@@ -71,6 +71,7 @@
 <div markdown="1">       
 <pre>
 - <a href="https://www.acmicpc.net/problem/1715">1715. 카드 정렬하기</a>
+- <a href="https://www.acmicpc.net/problem/2873">2873. 롤러코스터</a>
 </pre>
 </div>
 </details>
