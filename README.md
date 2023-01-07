@@ -75,3 +75,12 @@
 </pre>
 </div>
 </details>
+
+<details>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=59"> 우선순위 큐</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://www.acmicpc.net/problem/2014">2014. 소수의 곱</a>
+</pre>
+</div>
+</details>
