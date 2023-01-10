@@ -42,6 +42,7 @@ public class Main {
     static PriorityQueue<Integer> chicken;
 
     static PriorityQueue<Pair> cow;
+    static PriorityQueue<SubPair> availCow;
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -50,6 +51,7 @@ public class Main {
         N = Integer.parseInt(st.nextToken());
         chicken = new PriorityQueue<>();
         cow = new PriorityQueue<>();
+        availCow = new PriorityQueue<>();
         for (int i = 0; i < C; i++) chicken.add(Integer.parseInt(br.readLine()));
         for (int i = 0; i < N; i++) {
             st = new StringTokenizer(br.readLine());
@@ -58,30 +60,33 @@ public class Main {
             cow.add(new Pair(s, e));
         }
         ans = 0;
-        while (!cow.isEmpty()) {
-            if (chicken.isEmpty()) break;
+        while (!chicken.isEmpty()) {
+
             int currChicken = chicken.peek();
-            PriorityQueue<SubPair> availCow = new PriorityQueue<>();
 
             while (!cow.isEmpty()) {
                 Pair p = cow.peek();
                 if (p.start <= currChicken && currChicken <= p.end) {
                     availCow.add(new SubPair(p.start, p.end));
                     cow.poll();
-                } else if(p.end < currChicken) cow.poll();
-                else if(p.start > currChicken) chicken.poll();
+                } else if(p.start > currChicken) {
+                    break;
+                } else if(p.end < currChicken) {
+                    cow.poll();
+                }
             }
 
-            if (availCow.isEmpty()) {
-                chicken.poll();
-            } else {
-                availCow.poll();
-                chicken.poll();
-                ans++;
-                while (!availCow.isEmpty()) {
-                    SubPair a = availCow.poll();
-                    cow.add(new Pair(a.start, a.end));
+            if (!availCow.isEmpty()) {
+                SubPair s = availCow.peek();
+                if (s.start<=currChicken && currChicken <= s.end) {
+                    availCow.poll();
+                    chicken.poll();
+                    ans++;
+                } else if(s.end < currChicken) {
+                    availCow.poll();
                 }
+            } else {
+                chicken.poll();
             }
         }
         System.out.println(ans);
