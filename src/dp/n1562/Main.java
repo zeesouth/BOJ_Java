@@ -31,7 +31,7 @@ public class Main {
             }
         }
 
-        for(int k=0;k<=9;k++) ans += dp[N][k][(1<<10)-1];
+        for(int k=0;k<=9;k++) ans += dp[N][k][(1<<10)-1]%MOD;
         bw.write(ans+"\n");
         bw.flush();
     }
