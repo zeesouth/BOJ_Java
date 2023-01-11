@@ -3,7 +3,8 @@ package dp.n1562;
 import java.io.*;
 
 public class Main {
-    static int N, ans;
+    static long ans;
+    static int N;
     static long[][][] dp;
     static final int MOD = 1000000000;
 
@@ -31,8 +32,12 @@ public class Main {
             }
         }
 
-        for(int k=0;k<=9;k++) ans += dp[N][k][(1<<10)-1]%MOD;
+        for(int k=0;k<=9;k++) {
+            ans += dp[N][k][(1<<10)-1]%MOD;
+            ans %= MOD;
+        }
         bw.write(ans+"\n");
         bw.flush();
+        br.close();
     }
 }
