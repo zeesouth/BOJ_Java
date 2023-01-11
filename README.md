@@ -11,6 +11,7 @@
 - <a href="https://www.acmicpc.net/problem/2839">2839. 설탕 배달</a>
 - <a href="https://www.acmicpc.net/problem/1463">1463. 1로 만들기</a>
 - <a href="https://www.acmicpc.net/problem/16441">16441. 아기돼지와 늑대</a>
+- <a href="https://www.acmicpc.net/problem/1562">1562. 계단 수</a>
 </pre>
 </div>
 </details>
