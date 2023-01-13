@@ -97,3 +97,12 @@
 </pre>
 </div>
 </details>
+
+<details>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=12"> 이분(이진) 탐색</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://www.acmicpc.net/problem/1450">1450. 냅색 문제</a>
+</pre>
+</div>
+</details>
