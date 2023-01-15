@@ -32,6 +32,7 @@
 <pre>
 - <a href="https://www.acmicpc.net/problem/2417">2471. 정수 제곱근</a>
 - <a href="https://www.acmicpc.net/problem/13458">13458. 시험 감독</a>
+- <a href="https://www.acmicpc.net/problem/1064">1064. 평행사변형</a>
 </pre>
 </div>
 </details>
