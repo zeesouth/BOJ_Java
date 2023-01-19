@@ -5,35 +5,38 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-    static int T, K, ans;
-    static int[] arr;
-    static int[] dp;
+    static int T, K;
+    static int[] novel, sum;
+    static int[][] dp;
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringBuilder sb = new StringBuilder();
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         StringTokenizer st = null;
         T = Integer.parseInt(br.readLine());
         for(int t=1;t<=T;t++) {
             K = Integer.parseInt(br.readLine());
-            arr = new int[K];
-            dp = new int[1<<K];
+            novel = new int[K+1];   // novel[i] = i번째 파일의 용량
+            dp = new int[K+1][K+1]; // dp[i][j] = i~j까지의 최소가 되는 파일 용량 합
+            sum = new int[K+1];     // sum[i] = 1~i까지의 파일 용량 합
             st = new StringTokenizer(br.readLine());
-            for(int i=0;i<K;i++) arr[i] = Integer.parseInt(st.nextToken());
-            ans = dfs(0, 0, 0);
-            sb.append(ans).append("\n");
-        }
-        System.out.print(sb);
-        br.close();
-    }
+            for(int i=1;i<=K;i++) {
+                novel[i] = Integer.parseInt(st.nextToken());
+                sum[i] = sum[i-1] + novel[i];
+            }
 
-    static int dfs(int count, int status, int sum) {
-        if(count == K) return sum;
-        int s = Integer.MAX_VALUE;
-        for(int i=0;i<K;i++) {
-            if(((1<<i) & status) != (1<<i))
-                s = Math.min(s, arr[i]+dfs(count+1, status | (1<<i), sum+arr[i]));
-                s = Math.min(s, sum + dfs(count+1, status | (1<<i), arr[i]));
+            for(int n=1;n<=K;n++) {                         // 몇장을 묶기 시작할 것인가?
+                for(int from = 1; from+n <= K; from++) {    // 어디부터 묶기 시작할 것인가?
+                    int to = from+n;
+                    dp[from][to] = Integer.MAX_VALUE;
+                    for(int divide = from; divide < to; divide++) {
+                        dp[from][to] = Math.min(dp[from][to],
+                                dp[from][divide] + dp[divide+1][to] + sum[to]-sum[from-1]);
+                    }
+                }
+            }
+            bw.write(dp[1][K]+"\n");
         }
-        return s;
+        bw.flush();
+        br.close();
     }
 }
