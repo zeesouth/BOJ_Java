@@ -15,6 +15,8 @@
 - <a href="https://www.acmicpc.net/problem/2098">2098. 외판원 순회</a>
 - <a href="https://www.acmicpc.net/problem/27212">27212. 미팅</a>
 - <a href="https://www.acmicpc.net/problem/11066">11066. 파일 합치기</a>
+- <a href="https://www.acmicpc.net/problem/12865">12865. 평범한 배낭</a>
+- <a href="https://www.acmicpc.net/problem/7579">7579. 앱</a>
 </pre>
 </div>
 </details>
