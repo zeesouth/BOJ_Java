@@ -5,7 +5,7 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-    static int N, ans, ansMin, ansMax;
+    static int N, staticMin, staticMax, ansMin, ansMax;
     static char[][] village;
     static int[][] altitude;
     static boolean[][] visited;
@@ -23,8 +23,8 @@ public class Main {
         village = new char[N][N];
         altitude = new int[N][N];
         k = new LinkedList<>();
-        ansMax = Integer.MIN_VALUE;
-        ansMin = Integer.MAX_VALUE;
+        ansMax = staticMax = Integer.MIN_VALUE;
+        ansMin = staticMin = Integer.MAX_VALUE;
         for (int i = 0; i < N; i++) {
             String s = br.readLine();
             for (int j = 0; j < N; j++) {
@@ -37,90 +37,108 @@ public class Main {
             st = new StringTokenizer(br.readLine());
             for (int j = 0; j < N; j++) {
                 altitude[i][j] = Integer.parseInt(st.nextToken());
-                if(village[i][j] != '.'){
-                    ansMax = Math.max(altitude[i][j], ansMax);
-                    ansMin = Math.min(altitude[i][j], ansMin);
+                if(altitude[i][j] != '.') {
+                    staticMax = Math.max(altitude[i][j], staticMax);
+                    staticMin = Math.min(altitude[i][j], staticMin);
                 }
             }
         }
         br.close();
 
         while (!k.isEmpty()) {
-            System.out.println(ansMax+", "+ansMin);
-            System.out.println("----");
             int[] currK = k.poll();
+            int currAnsMax = Math.max(altitude[p[0]][p[1]], altitude[currK[0]][currK[1]]);
+            int currAnsMin = Math.min(altitude[p[0]][p[1]], altitude[currK[0]][currK[1]]);
             q = new LinkedList<>();
-            q.add(new int[]{currK[0], currK[1]});
+            q.add(p);
             visited = new boolean[N][N];
-            visited[currK[0]][currK[1]] = true;
-            while (!q.isEmpty()) {
+            visited[p[0]][p[1]] = true;
+            while(!q.isEmpty()) {
                 int[] curr = q.poll();
 
-                boolean flag = false;
-
-                // 최대 ~ 최소 사이에 있는 Y, X
-                int firstSub = Integer.MAX_VALUE;
                 int firstY = -1;
                 int firstX = -1;
 
-                // 현재 고도와 고도 차이 절댓값이 가장 작은 Y, X
-                int secondSub = Integer.MAX_VALUE;
+                int minSub = Integer.MAX_VALUE;
                 int secondY = -1;
                 int secondX = -1;
 
-                for (int i = 0; i < 8; i++) {
+                boolean flag = false;
+                for(int i=0;i<8;i++) {
                     int currY = curr[0] + dy[i];
                     int currX = curr[1] + dx[i];
-                    if (isValid(currY, currX) && !visited[currY][currX]) {
-                        int currAltitude = altitude[currY][currX];
-                        if(village[currY][currX] == 'P') {
+                    if(isValid(currY, currX) && !visited[currY][currX]) {
+                        if(currY == currK[0] && currX == currK[1]) {
                             flag = true;
                             break;
-                        }
-                        else if(village[currY][currX] != 'K' && currAltitude <= ansMax && currAltitude >= ansMin) {
-                            if(firstSub >= Math.abs(altitude[curr[0]][curr[1]]-currAltitude)) {
-                                firstSub = Math.abs(altitude[curr[0]][curr[1]]-currAltitude);
+                        } else if (village[currY][currX] != 'K') {
+                            int currAltitude = altitude[currY][currX];
+                            if(currAnsMin <= currAltitude && currAltitude <= currAnsMax) {
                                 firstY = currY;
                                 firstX = currX;
-                            }
-                        } else if(village[currY][currX] != 'K'){
-                            if(currAltitude > ansMax) {
-                                if(secondSub >= Math.abs(ansMax-currAltitude)) {
-                                    secondSub = Math.abs(ansMax-currAltitude);
-                                    secondY = currY;
-                                    secondX = currX;
+                            } else {
+                                if(currAltitude > currAnsMax) {
+                                    if(minSub > Math.abs(currAnsMax-currAltitude)) {
+                                        minSub = Math.abs(currAnsMax-currAltitude);
+                                        secondY = currY;
+                                        secondX = currX;
+                                    } else if(minSub == Math.abs(currAnsMax-currAltitude)) {
+                                        if(altitude[secondY][secondX] > currAnsMax) {
+                                            if(Math.abs(staticMax-currAltitude) < Math.abs(staticMax-altitude[secondY][secondX])){
+                                                secondY = currY;
+                                                secondX = currX;
+                                            }
+                                        } else if (altitude[secondY][secondX] < currAnsMin) {
+                                            if(Math.abs(staticMax-currAltitude) < Math.abs(staticMin-altitude[secondY][secondX])){
+                                                secondY = currY;
+                                                secondX = currX;
+                                            }
+                                        }
+                                    }
+                                } else if (currAltitude < currAnsMin) {
+                                    if(minSub > Math.abs(currAnsMin-currAltitude)) {
+                                        minSub = Math.abs(currAnsMin-currAltitude);
+                                        secondY = currY;
+                                        secondX = currX;
+                                    } else if(minSub == Math.abs(currAnsMax-currAltitude)) {
+                                        if(altitude[secondY][secondX] > currAnsMax) {
+                                            if(Math.abs(staticMin-currAltitude) < Math.abs(staticMax-altitude[secondY][secondX])){
+                                                secondY = currY;
+                                                secondX = currX;
+                                            }
+                                        } else if (altitude[secondY][secondX] < currAnsMin) {
+                                            if(Math.abs(staticMin-currAltitude) < Math.abs(staticMin-altitude[secondY][secondX])){
+                                                secondY = currY;
+                                                secondX = currX;
+                                            }
+                                        }
+                                    }
                                 }
-                            } else if(currAltitude < ansMin) {
-                                if(secondSub >= Math.abs(ansMin-currAltitude)) {
-                                    secondSub = Math.abs(ansMin-currAltitude);
-                                    secondY = currY;
-                                    secondX = currX;
-                                }
                             }
+
                         }
                     }
                 }
 
-                if(flag) break;
-
-                if(firstY != -1 && firstX != -1) {
-                    q.add(new int[]{firstY, firstX});
-                    visited[firstY][firstX] = true;
-                    System.out.println("first info");
-                    System.out.println(altitude[firstY][firstX]);
-
-                } else if(secondY != -1 && secondX != -1){
-                    ansMax = Math.max(ansMax, altitude[secondY][secondX]);
-                    ansMin = Math.min(ansMin, altitude[secondY][secondX]);
-                    visited[secondY][secondX] = true;
-                    q.add(new int[]{secondY, secondX});
-                    System.out.println("second info");
-                    System.out.println(altitude[secondY][secondX]);
+                if(flag) {
+                    ansMax = Math.max(currAnsMax, ansMax);
+                    ansMin = Math.min(currAnsMin, ansMin);
+                    break;
+                } else {
+                    if(firstY != -1) {
+                        q.add(new int[]{firstY, firstX});
+                        visited[firstY][firstX] = true;
+                    } else if(secondY != -1) {
+                        currAnsMax = Math.max(altitude[secondY][secondX], currAnsMax);
+                        currAnsMin = Math.min(altitude[secondY][secondX], currAnsMin);
+                        q.add(new int[]{secondY, secondX});
+                        visited[secondY][secondX] = true;
+                    }
                 }
             }
         }
 
-        bw.write((ansMax-ansMin) + "");
+        bw.write((ansMax-ansMin) + "\n");
         bw.flush();
     }
 
@@ -128,9 +146,3 @@ public class Main {
         return y >= 0 && y < N && x >= 0 && x < N;
     }
 }
-
-/*
- * 피로도 : 상덕이가 배달하면서 방문한 칸 중 가장 높은 곳과 낮은 곳의 고도 차이
- * 상덕이가 가장 낮은 피로도로 배달을 하려면 어떻게 해야 하는지 구하세요.
- * 피로도가 낮을 수록 좋은 것 : 즉, 고도의 차이가 많이 안날 수록
- * */
