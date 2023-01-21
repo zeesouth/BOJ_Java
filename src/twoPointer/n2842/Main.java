@@ -5,144 +5,114 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-    static int N, staticMin, staticMax, ansMin, ansMax;
+    static int N, kNum, startY, startX, ans = 1_000_000;
     static char[][] village;
     static int[][] altitude;
     static boolean[][] visited;
+    static List<Integer> altitudeList = new ArrayList<>();
+    static int[] dx = {-1, 1, 0, 0, -1, -1, 1, 1};
+    static int[] dy = {0, 0, 1, -1, -1, 1, 1, -1};
 
-    static int[] dy = {1, 1, 0, 1, -1, -1, -1, 0};
-    static int[] dx = {1, -1, 1, 0, -1, 1, 0, -1};
-    static int[] p;
-    static Queue<int[]> k, q;
+    static class Node {
+        int y, x;
+
+        public Node(int y, int x) {
+            this.y = y;
+            this.x = x;
+        }
+    }
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         N = Integer.parseInt(br.readLine());
         StringTokenizer st = null;
-        village = new char[N][N];
         altitude = new int[N][N];
-        k = new LinkedList<>();
-        ansMax = staticMax = Integer.MIN_VALUE;
-        ansMin = staticMin = Integer.MAX_VALUE;
+        village = new char[N][N];
         for (int i = 0; i < N; i++) {
             String s = br.readLine();
             for (int j = 0; j < N; j++) {
                 village[i][j] = s.charAt(j);
-                if (village[i][j] == 'P') p = new int[]{i, j};
-                else if (village[i][j] == 'K') k.add(new int[]{i, j});
+                if (village[i][j] == 'K') kNum++;
+                if (village[i][j] == 'P') {
+                    startY = i;
+                    startX = j;
+                }
             }
         }
+
+//      1. 투포인터 지정
+//      1-1) 고도를 중복없이 저장하고 배열에 저장
         for (int i = 0; i < N; i++) {
             st = new StringTokenizer(br.readLine());
             for (int j = 0; j < N; j++) {
                 altitude[i][j] = Integer.parseInt(st.nextToken());
-                if(altitude[i][j] != '.') {
-                    staticMax = Math.max(altitude[i][j], staticMax);
-                    staticMin = Math.min(altitude[i][j], staticMin);
-                }
-            }
-        }
-        br.close();
-
-        while (!k.isEmpty()) {
-            int[] currK = k.poll();
-            int currAnsMax = Math.max(altitude[p[0]][p[1]], altitude[currK[0]][currK[1]]);
-            int currAnsMin = Math.min(altitude[p[0]][p[1]], altitude[currK[0]][currK[1]]);
-            q = new LinkedList<>();
-            q.add(p);
-            visited = new boolean[N][N];
-            visited[p[0]][p[1]] = true;
-            while(!q.isEmpty()) {
-                int[] curr = q.poll();
-
-                int firstY = -1;
-                int firstX = -1;
-
-                int minSub = Integer.MAX_VALUE;
-                int secondY = -1;
-                int secondX = -1;
-
-                boolean flag = false;
-                for(int i=0;i<8;i++) {
-                    int currY = curr[0] + dy[i];
-                    int currX = curr[1] + dx[i];
-                    if(isValid(currY, currX) && !visited[currY][currX]) {
-                        if(currY == currK[0] && currX == currK[1]) {
-                            flag = true;
-                            break;
-                        } else if (village[currY][currX] != 'K') {
-                            int currAltitude = altitude[currY][currX];
-                            if(currAnsMin <= currAltitude && currAltitude <= currAnsMax) {
-                                firstY = currY;
-                                firstX = currX;
-                            } else {
-                                if(currAltitude > currAnsMax) {
-                                    if(minSub > Math.abs(currAnsMax-currAltitude)) {
-                                        minSub = Math.abs(currAnsMax-currAltitude);
-                                        secondY = currY;
-                                        secondX = currX;
-                                    } else if(minSub == Math.abs(currAnsMax-currAltitude)) {
-                                        if(altitude[secondY][secondX] > currAnsMax) {
-                                            if(Math.abs(staticMax-currAltitude) < Math.abs(staticMax-altitude[secondY][secondX])){
-                                                secondY = currY;
-                                                secondX = currX;
-                                            }
-                                        } else if (altitude[secondY][secondX] < currAnsMin) {
-                                            if(Math.abs(staticMax-currAltitude) < Math.abs(staticMin-altitude[secondY][secondX])){
-                                                secondY = currY;
-                                                secondX = currX;
-                                            }
-                                        }
-                                    }
-                                } else if (currAltitude < currAnsMin) {
-                                    if(minSub > Math.abs(currAnsMin-currAltitude)) {
-                                        minSub = Math.abs(currAnsMin-currAltitude);
-                                        secondY = currY;
-                                        secondX = currX;
-                                    } else if(minSub == Math.abs(currAnsMax-currAltitude)) {
-                                        if(altitude[secondY][secondX] > currAnsMax) {
-                                            if(Math.abs(staticMin-currAltitude) < Math.abs(staticMax-altitude[secondY][secondX])){
-                                                secondY = currY;
-                                                secondX = currX;
-                                            }
-                                        } else if (altitude[secondY][secondX] < currAnsMin) {
-                                            if(Math.abs(staticMin-currAltitude) < Math.abs(staticMin-altitude[secondY][secondX])){
-                                                secondY = currY;
-                                                secondX = currX;
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-
-                        }
-                    }
-                }
-
-                if(flag) {
-                    ansMax = Math.max(currAnsMax, ansMax);
-                    ansMin = Math.min(currAnsMin, ansMin);
-                    break;
-                } else {
-                    if(firstY != -1) {
-                        q.add(new int[]{firstY, firstX});
-                        visited[firstY][firstX] = true;
-                    } else if(secondY != -1) {
-                        currAnsMax = Math.max(altitude[secondY][secondX], currAnsMax);
-                        currAnsMin = Math.min(altitude[secondY][secondX], currAnsMin);
-                        q.add(new int[]{secondY, secondX});
-                        visited[secondY][secondX] = true;
-                    }
-                }
+                if (!altitudeList.contains(altitude[i][j])) altitudeList.add(altitude[i][j]);
             }
         }
 
-        bw.write((ansMax-ansMin) + "\n");
+//      1-2) 오름차순으로 고도 리스트 정렬
+        Collections.sort(altitudeList);
+
+        bw.write(bfs() + "");
         bw.flush();
+        br.close();
+    }
+
+    static int bfs() {
+        // two pointer index
+        int low = 0, high = 0;
+
+        while (low < altitudeList.size()) {
+            visited = new boolean[N][N];
+            Queue<Node> q = new LinkedList<>();
+            int val = altitude[startY][startX];
+
+            if (altitudeList.get(low) <= val && val <= altitudeList.get(high)) {
+                visited[startY][startX] = true;
+                q.add(new Node(startY, startX));
+            }
+
+            int count = 0;
+            while (!q.isEmpty()) {
+                Node curr = q.poll();
+
+                if (village[curr.y][curr.x] == 'K') count++;
+
+                for (int d = 0; d < 8; d++) {
+                    int currY = curr.y + dy[d];
+                    int currX = curr.x + dx[d];
+
+                    if (!isValid(currY, currX)) continue;
+                    if (visited[currY][currX]) continue;
+                    int nextVal = altitude[currY][currX];
+
+                    // 2. 투포인터 범위 안에만 있는 고도만 BFS
+                    if (altitudeList.get(low) <= nextVal && nextVal <= altitudeList.get(high)) {
+                        visited[currY][currX] = true;
+                        q.add(new Node(currY, currX));
+                    }
+                }
+
+            }
+
+            // 모든 배달 지역을 다 방문했다면 ans와 피로도를 비교
+            if (kNum == count) {
+                ans = Math.min(ans, altitudeList.get(high) - altitudeList.get(low));
+                low++;
+            } else if (high + 1 < altitudeList.size()) high++;
+            else break;
+        }
+        return ans;
     }
 
     static boolean isValid(int y, int x) {
         return y >= 0 && y < N && x >= 0 && x < N;
     }
 }
+/*1) 투포인터 지정
+ *    고도를 전부 중복 없이 오름차순으로 정렬 후 저장하여 탐색
+ *    우체국 고도 중 제일 낮은곳, 높은 곳을 투포인터로 지정
+ * 2) 투포인터 범위 안에만 있는 고도만 BFS
+ * 3) 모든 집이 탐색되지 않으면 오른쪽 1증가 왼쪽 1증가
+ * */
