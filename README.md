@@ -119,6 +119,7 @@
 <div markdown="1">       
 <pre>
 - <a href="https://www.acmicpc.net/problem/2842">2842. 집배원 한상덕</a>
+- <a href="https://www.acmicpc.net/problem/1253">1253. 좋다</a>
 </pre>
 </div>
 </details>
