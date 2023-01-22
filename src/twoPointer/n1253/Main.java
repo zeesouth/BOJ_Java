@@ -5,56 +5,40 @@ import java.util.*;
 
 public class Main {
 
-    static int N, ans;
-    static HashSet<Integer> goodNumber;
-    static HashMap<Integer, Integer> count;
-    static ArrayList<Integer> arr;
+    static int N, goodNumber;
+    static int[] arr;
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         N = Integer.parseInt(br.readLine());
-        count = new HashMap<>();
-        arr = new ArrayList<>();
+        arr = new int[N];
         StringTokenizer st = new StringTokenizer(br.readLine());
-        for(int i=0;i<N;i++) {
-            int currNum = Integer.parseInt(st.nextToken());
-            if(arr.contains(currNum)) count.replace(currNum, count.get(currNum)+1);
-            else count.put(currNum, 1);
-            arr.add(currNum);
-        }
-        Collections.sort(arr);
-        goodNumber = new HashSet<>();
+        for(int i=0;i<N;i++) arr[i] = Integer.parseInt(st.nextToken());
+        Arrays.sort(arr);
+        goodNumber = 0;
 
-        ans = 0;
-        bs(0, arr.size()-1);
-        bw.write(ans+"");
-        bw.flush();
-    }
+        for(int i=0;i<arr.length;i++) {
+            int findNumber = arr[i];    // 오름차순 정렬된 배열을 하나씩 조회
+            int start = 0;
+            int end = arr.length-1;
+            int sum = 0;
 
-    static void bs(int start, int end) {
-        if(start >= end) return;
-
-        int currNum = arr.get(start) + arr.get(end);
-        if(arr.contains(currNum) && !goodNumber.contains(currNum)) {
-            if(arr.indexOf(currNum) == start || arr.indexOf(currNum) == end) {
-                if(arr.get(start) == arr.get(end)) {
-                    if(count.get(currNum) > 2) {
-                        ans += count.get(currNum);
-                        goodNumber.add(currNum);
-                    }
-                } else {
-                    if(count.get(currNum) > 1) {
-                        ans += count.get(currNum);
-                        goodNumber.add(currNum);
+            while(start < end) {
+                sum = arr[start] + arr[end];
+                if(sum == findNumber) {
+                    if(i==start) start++;
+                     else if(i==end) end--;
+                     else {
+                        goodNumber++; break;
                     }
                 }
-            } else {
-                ans += count.get(currNum);
-                goodNumber.add(currNum);
+                if(arr[start] + arr[end] > findNumber) end--;
+                else if(arr[start] + arr[end] < findNumber) start++;
             }
         }
-        bs(start, end-1);
-        bs(start+1, end);
+
+        bw.write(goodNumber+"");
+        bw.flush();
     }
 }
