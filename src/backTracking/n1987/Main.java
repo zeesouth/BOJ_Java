@@ -23,6 +23,7 @@ public class Main {
 
         ans = Integer.MIN_VALUE;
         alphabet = new boolean['Z'-'A'+1];
+        alphabet[map[0][0]-'A'] = true;
 
         dfs(1, 0, 0);
 
@@ -32,17 +33,18 @@ public class Main {
     }
 
     static void dfs(int cnt, int y, int x) {
-        alphabet[map[y][x]-'A'] = true;
+        ans = Math.max(ans, cnt);
         for(int i=0;i<4;i++) {
             int currY = y+dy[i];
             int currX = x+dx[i];
-
             if(isValid(currY, currX)) {
-                if(!alphabet[map[currY][currX]-'A']) dfs(cnt+1, currY, currX);
-                else ans = Math.max(ans, cnt);
+                if(!alphabet[map[currY][currX]-'A']) {
+                    alphabet[map[currY][currX]-'A'] = true;
+                    dfs(cnt+1, currY, currX);
+                    alphabet[map[currY][currX]-'A'] = false;
+                }
             }
         }
-        alphabet[map[y][x]-'A'] = false;
     }
 
     static boolean isValid(int y, int x) {
