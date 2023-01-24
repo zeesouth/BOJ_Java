@@ -124,3 +124,12 @@
 </pre>
 </div>
 </details>
+
+<details>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=5"> 백트래킹 (Back Tracking)</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://www.acmicpc.net/problem/15686">15686. 치킨 배달</a>
+</pre>
+</div>
+</details>
