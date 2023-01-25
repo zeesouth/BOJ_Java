@@ -131,6 +131,7 @@
 <pre>
 - <a href="https://www.acmicpc.net/problem/15686">15686. 치킨 배달</a>
 - <a href="https://www.acmicpc.net/problem/1987">1987. 알파벳</a>
+- <a href="https://www.acmicpc.net/problem/19236">19236. 청소년 상어</a>
 </pre>
 </div>
 </details>
