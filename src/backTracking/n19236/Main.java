@@ -29,8 +29,11 @@ public class Main {
                 fish[map[i][j]] = new int[] {i, j, Integer.parseInt(st.nextToken())-1};
             }
         }
-        fish[0] = new int[] {-1, -1, -1};
-        dfs(0, 0, map[0][0], fish[map[0][0]][2]);
+        ans = map[0][0];
+        int direct = fish[map[0][0]][2];
+        fish[map[0][0]] = new int[] {-1, -1, -1};
+        map[0][0] = -1;
+        dfs(0, 0, ans, direct);
 
         bw.write(ans+"");
         bw.flush();
@@ -45,8 +48,6 @@ public class Main {
         for(int i=0;i<N;i++) originMap[i] = Arrays.copyOfRange(map[i], 0, N);
         for(int i=1;i<=N*N;i++) originFish[i] = Arrays.copyOfRange(fish[i], 0, 3);
 
-        fish[map[y][x]] = new int[]{-1, -1, -1};
-        map[y][x] = -1;
         ans = Math.max(ans, currAns);
 
         // 물고기 이동
@@ -78,13 +79,23 @@ public class Main {
 
         // 상어 이동
         int currY = y+dy[shark];
-        int currX = x+dy[shark];
+        int currX = x+dx[shark];
 
         while(isValid(currY, currX)) {
-            if(map[currY][currX] != 0 && map[currY][currX] != -1) {
+            if(map[currY][currX] != 0) {
                 map[y][x] = 0;
-                dfs(currY, currX, currAns + map[currY][currX], fish[map[currY][currX]][2]);
+                int currFishIndex = map[currY][currX];
+                int currFishDirect = fish[currFishIndex][2];
+                fish[currFishIndex][0] = -1;
+                fish[currFishIndex][1] = -1;
+                fish[currFishIndex][2] = -1;
+                map[currY][currX] = -1;
+                dfs(currY, currX, currAns + currFishIndex, currFishDirect);
                 map[y][x] = -1;
+                fish[currFishIndex][0] = currY;
+                fish[currFishIndex][1] = currX;
+                fish[currFishIndex][2] = currFishDirect;
+                map[currY][currX] = currFishIndex;
             }
             currY += dy[shark];
             currX += dx[shark];
