@@ -26,6 +26,7 @@
 <div markdown="1">       
 <pre>
 - <a href="https://www.acmicpc.net/problem/4458">4458. 첫 글자를 대문자로</a>
+- <a href="https://www.acmicpc.net/problem/5582">5582. 공통 부분 문자열</a>
 </pre>
 </div>
 </details>
