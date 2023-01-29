@@ -17,6 +17,7 @@
 - <a href="https://www.acmicpc.net/problem/11066">11066. 파일 합치기</a>
 - <a href="https://www.acmicpc.net/problem/12865">12865. 평범한 배낭</a>
 - <a href="https://www.acmicpc.net/problem/7579">7579. 앱</a>
+- <a href="https://www.acmicpc.net/problem/2293">2293. 동전 1</a>
 </pre>
 </div>
 </details>
