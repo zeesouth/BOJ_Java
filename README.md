@@ -22,6 +22,7 @@
 - <a href="https://www.acmicpc.net/problem/11053">11053. 가장 긴 증가하는 부분 수열</a>
 - <a href="https://www.acmicpc.net/problem/11054">11054. 가장 긴 바이토닉 부분 수열</a>
 - <a href="https://www.acmicpc.net/problem/11722">11722. 가장 긴 감소하는 부분 수열</a>
+- <a href="https://www.acmicpc.net/problem/11055">11055. 가장 큰 증가 부분 수열</a>
 </pre>
 </div>
 </details>
