@@ -18,6 +18,7 @@
 - <a href="https://www.acmicpc.net/problem/12865">12865. 평범한 배낭</a>
 - <a href="https://www.acmicpc.net/problem/7579">7579. 앱</a>
 - <a href="https://www.acmicpc.net/problem/2293">2293. 동전 1</a>
+- <a href="https://www.acmicpc.net/problem/2294">2294. 동전 2</a>
 </pre>
 </div>
 </details>
