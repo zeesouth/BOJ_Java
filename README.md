@@ -21,6 +21,7 @@
 - <a href="https://www.acmicpc.net/problem/2294">2294. 동전 2</a>
 - <a href="https://www.acmicpc.net/problem/11053">11053. 가장 긴 증가하는 부분 수열</a>
 - <a href="https://www.acmicpc.net/problem/11054">11054. 가장 긴 바이토닉 부분 수열</a>
+- <a href="https://www.acmicpc.net/problem/11722">11722. 가장 긴 바이토닉 부분 수열</a>
 </pre>
 </div>
 </details>
