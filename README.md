@@ -120,6 +120,7 @@
 - <a href="https://www.acmicpc.net/problem/1450">1450. 냅색문제</a>
 - <a href="https://www.acmicpc.net/problem/1208">1208. 부분수열의 합 2</a>
 - <a href="https://www.acmicpc.net/problem/2352">2352. 반도체</a>
+- <a href="https://www.acmicpc.net/problem/12015">12015. 가장 긴 증가하는 부분 수열 2</a>
 </pre>
 </div>
 </details>
