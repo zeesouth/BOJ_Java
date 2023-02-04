@@ -146,3 +146,12 @@
 </pre>
 </div>
 </details>
+
+<details>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=22"> 데이크스트라 (Dijkstra)</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://www.acmicpc.net/problem/1753">1753. 최단경로</a>
+</pre>
+</div>
+</details>
