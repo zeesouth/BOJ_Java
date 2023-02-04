@@ -11,9 +11,9 @@ class Node {
 
 public class Main {
     static int V, E, start;
-    static boolean[] visited;
-    static ArrayList<Node>[] graph;
-    static int[] dist;
+    static boolean[] visited;   // 방문 여부 체크
+    static ArrayList<Node>[] graph; // 각 노드에 연결되어 있는 노드에 대한 정보
+    static int[] dist;  // 최단 거리 테이블
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
