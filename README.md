@@ -153,6 +153,7 @@
 <pre>
 - <a href="https://www.acmicpc.net/problem/1753">1753. 최단경로</a>
 - <a href="https://www.acmicpc.net/problem/1504">1504. 특정한 최단 경로</a>
+- <a href="https://www.acmicpc.net/problem/1238">1238. 파티</a>
 </pre>
 </div>
 </details>
