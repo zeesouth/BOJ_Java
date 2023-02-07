@@ -6,6 +6,7 @@ import java.util.*;
 
 class Node {
     int v, cost;
+
     Node(int v, int cost) {
         this.v = v;
         this.cost = cost;
@@ -14,88 +15,73 @@ class Node {
 
 public class Main {
     static int N, M, K;
-    static HashSet<Integer>[] beforeNodes;
-    static boolean[] check, visited;
+    static ArrayList<Node>[] graph;
+    static boolean[] visited;
     static int[] dist;
-    static int[][] original, graph;
+
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         StringBuilder sb = new StringBuilder();
-        StringTokenizer st  = new StringTokenizer(br.readLine());
+
+
+        StringTokenizer st = new StringTokenizer(br.readLine());
         N = Integer.parseInt(st.nextToken());
         M = Integer.parseInt(st.nextToken());
         K = Integer.parseInt(st.nextToken());
 
-        graph = new int[N+1][N+1];
-        original = new int[N+1][N+1];
+        graph = new ArrayList[N+1];
         dist = new int[N+1];
-        beforeNodes = new HashSet[N+1];
+        for (int i = 1; i <= N; i++) graph[i] = new ArrayList<>();
 
-        for(int i=0;i<M;i++) {
+        for (int i = 0; i < M; i++) {
             st = new StringTokenizer(br.readLine());
             int a = Integer.parseInt(st.nextToken());
             int b = Integer.parseInt(st.nextToken());
             int c = Integer.parseInt(st.nextToken());
-            graph[a][b] = c;
-            original[a][b] = c;
+            graph[a].add(new Node(b, c));
         }
 
-        for(int i=1;i<=N;i++) {
-            check = new boolean[N+1];
-            for(int j=0;j<K;j++) {
-                dijkstra(1, i);
-                deletePath(i);
-            }
-            sb.append(dijkstra(1, i)+"\n");
+        for(int i=1;i<=N;i++) sb.append(dijkstra(i, K) + "\n");
 
-            for(int j=1;j<=N;j++) graph[j] = Arrays.copyOf(original[j], N+1);
-        }
 
         bw.write(sb.toString());
         bw.flush();
         br.close();
     }
 
-    static void deletePath(int node) {
-        if (check[node]) return;
-        check[node] = true;
-        for (int key : beforeNodes[node]) {
-            graph[key][node] = 0;
-            deletePath(key);
-        }
-    }
+    static int dijkstra(int end, int k) {
 
-    static int dijkstra(int start, int end) {
-        Arrays.fill(dist, Integer.MAX_VALUE);
+        PriorityQueue<Integer> len = new PriorityQueue<>();
+
         visited = new boolean[N+1];
+        Arrays.fill(dist, Integer.MAX_VALUE);
 
-        PriorityQueue<Node> q = new PriorityQueue<>((o1, o2) -> o1.cost - o2.cost);
-        q.add(new Node(start, 0));
-        dist[start] = 0;
-
-        beforeNodes = new HashSet[N+1];
-        for (int i = 1; i <= N; i++) beforeNodes[i] = new HashSet<>();
+        PriorityQueue<Node> q = new PriorityQueue<>(
+                (o1, o2) -> o1.cost - o2.cost
+        );
+        q.add(new Node(1, 0));
+        dist[1] = 0;
 
         while (!q.isEmpty()) {
             Node curr = q.poll();
-            if (visited[curr.v]) continue;
-            visited[curr.v] = true;
 
-            for (int i = 1; i <= N; i++) {
-                int cost = graph[curr.v][i];
+            if (!visited[curr.v] && curr.v != end) visited[curr.v] = true;
+            for (Node next : graph[curr.v]) {
 
-                if(visited[i] || cost == 0) continue;
-                if(dist[i] < cost + curr.cost) continue;
-
-                if (dist[i] > cost + curr.cost) beforeNodes[i].clear();
-
-                beforeNodes[i].add(curr.v);
-                dist[i] = cost + curr.cost;
-                q.add(new Node(i, dist[i]));
+                if (next.v == end) {
+                    int cost = curr.cost + next.cost;
+                    if(!len.contains(cost)) len.add(cost);
+                } else if (!visited[next.v] && dist[next.v] > curr.cost + next.cost) {
+                    dist[next.v] = curr.cost + next.cost;
+                    q.add(new Node(next.v, dist[next.v]));
+                }
             }
         }
-        return dist[end] == Integer.MAX_VALUE || dist[end] == 0 ? -1 : dist[end];
-    }
 
+        ArrayList<Integer> res = new ArrayList<>();
+        res.addAll(len);
+
+        return res.size() < K ? -1 : res.get(k-1);
+    }
 }
