@@ -1,4 +1,4 @@
-package dp.n1005;
+package topologySort.n1005;
 // https://www.acmicpc.net/problem/1005
 
 import java.io.*;

@@ -23,7 +23,6 @@
 - <a href="https://www.acmicpc.net/problem/11054">11054. 가장 긴 바이토닉 부분 수열</a>
 - <a href="https://www.acmicpc.net/problem/11722">11722. 가장 긴 감소하는 부분 수열</a>
 - <a href="https://www.acmicpc.net/problem/11055">11055. 가장 큰 증가 부분 수열</a>
-- <a href="https://www.acmicpc.net/problem/1005">1005. ACM Craft</a>
 </pre>
 </div>
 </details>
@@ -158,6 +157,15 @@
 - <a href="https://www.acmicpc.net/problem/5719">5719. 거의 최단 경로</a>
 - <a href="https://www.acmicpc.net/problem/1854">1854. K번째 최단경로 찾기</a>
 - <a href="https://www.acmicpc.net/problem/9376">9376. 탈옥</a>
+</pre>
+</div>
+</details>
+
+<details>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=78"> 위상정렬</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://www.acmicpc.net/problem/1005">1005. ACM Craft</a>
 </pre>
 </div>
 </details>
