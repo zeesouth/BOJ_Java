@@ -171,3 +171,12 @@
 </pre>
 </div>
 </details>
+
+<details>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=125"> 부루트포스 (Brute Force)</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://www.acmicpc.net/problem/15660">15660. 테르토미노 (2)</a>
+</pre>
+</div>
+</details>
