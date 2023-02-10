@@ -89,6 +89,7 @@
 - <a href="https://www.acmicpc.net/problem/1715">1715. 카드 정렬하기</a>
 - <a href="https://www.acmicpc.net/problem/2873">2873. 롤러코스터</a>
 - <a href="https://www.acmicpc.net/problem/1202">1202. 보석 도둑</a>
+- <a href="https://www.acmicpc.net/problem/13975">13975. 파일 합치기 3</a>
 </pre>
 </div>
 </details>
@@ -162,7 +163,7 @@
 </details>
 
 <details>
-<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=78"> 위상정렬</a></summary>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=78"> 위상정렬 (Topology Sort)</a></summary>
 <div markdown="1">       
 <pre>
 - <a href="https://www.acmicpc.net/problem/1005">1005. ACM Craft</a>
