@@ -26,6 +26,7 @@
 - <a href="https://www.acmicpc.net/problem/15486">15486. 퇴사 2</a>
 - <a href="https://www.acmicpc.net/problem/2565">2565. 전깃줄</a>
 - <a href="https://www.acmicpc.net/problem/1937">1937. 욕심쟁이 판다</a>
+- <a href="https://www.acmicpc.net/problem/1520">1520. 내리막 길</a>
 </pre>
 </div>
 </details>
