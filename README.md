@@ -25,6 +25,7 @@
 - <a href="https://www.acmicpc.net/problem/11055">11055. 가장 큰 증가 부분 수열</a>
 - <a href="https://www.acmicpc.net/problem/15486">15486. 퇴사 2</a>
 - <a href="https://www.acmicpc.net/problem/2565">2565. 전깃줄</a>
+- <a href="https://www.acmicpc.net/problem/1937">1937. 욕심쟁이 판다</a>
 </pre>
 </div>
 </details>
