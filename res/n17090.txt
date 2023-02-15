@@ -1,0 +1,23 @@
+3 3
+DDD
+DDD
+DDD
+-9
+
+3 3
+DDR
+DLU
+LLL
+-9
+
+3 3
+RRD
+RDD
+ULL
+-0
+
+3 4
+RRDD
+RRDR
+DULU
+-4
