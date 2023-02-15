@@ -29,29 +29,34 @@ public class Main {
         dp = new int[N][M];
         visited = new boolean[N][M];
 
-        game(0, 0);
+        game(0, 0, 1);
         bw.write((flag ? -1 : ans)+"");
         bw.flush();
         br.close();
     }
 
-    static int game(int y, int x) {
-        visited[y][x] = true;
-        dp[y][x] = 1;
+    static void game(int y, int x, int cnt) {
+        dp[y][x] = cnt;
         int X = map[y][x];
+
+        if(cnt > ans) ans = cnt;
+
         for(int i=0;i<4;i++) {
             int currY = y+dy[i]*X;
             int currX = x+dx[i]*X;
             if(isValid(currY, currX)) {
-                if (!visited[currY][currX]) dp[y][x] = Math.max(dp[y][x], game(currY, currX)+1);
-                else {
-                    if(dp[y][x] == Math.max(dp[y][x], dp[currY][currX])) flag = true;
-                    else dp[y][x] = Math.max(dp[y][x], dp[currY][currX]);
+                if(!isValid(currY, currX)) continue;
+                if(cnt < dp[currY][currX]) continue;
+                if(visited[currY][currX]) {
+                    flag = true; return;
                 }
+
+                visited[currY][currX] = true;
+                game(currY, currX, cnt+1);
+                visited[currY][currX] = false;
             }
         }
-        if(dp[y][x] != 1) ans = Math.max(ans, dp[y][x]);
-        return dp[y][x];
+
     }
 
     static int stoi(String s){
