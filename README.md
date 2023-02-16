@@ -187,3 +187,12 @@
 </pre>
 </div>
 </details>
+
+<details>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=79"> 트라이 (Trie)</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://www.acmicpc.net/problem/5052">5052. 전화번호 목록</a>
+</pre>
+</div>
+</details>
