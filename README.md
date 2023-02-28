@@ -102,6 +102,7 @@
 - <a href="https://www.acmicpc.net/problem/1202">1202. 보석 도둑</a>
 - <a href="https://www.acmicpc.net/problem/13975">13975. 파일 합치기 3</a>
 - <a href="https://www.acmicpc.net/problem/2437">2437. 저울</a>
+- <a href="https://www.acmicpc.net/problem/1339">1339. 단어 수학</a>
 </pre>
 </div>
 </details>
