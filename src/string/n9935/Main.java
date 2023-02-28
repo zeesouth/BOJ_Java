@@ -2,40 +2,38 @@ package string.n9935;
 // https://www.acmicpc.net/problem/9935
 
 import java.io.*;
-import java.util.*;
 
 public class Main {
-    static int idx;
-    static boolean flag;
-    static char[] s, boom;
-    static Stack<Character> newOne, temp;
+
     public static void main (String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
+        String str = br.readLine();
+        String boom = br.readLine();
+
         StringBuilder sb = new StringBuilder();
 
-        s = br.readLine().toCharArray();
-        boom = br.readLine().toCharArray();
+        for(int i=0;i<str.length();i++) {
+            char ch = str.charAt(i);
+            sb.append(ch);
 
-        newOne = new Stack<>();
-        temp = new Stack<>();
-
-        for(int i=0;i<s.length;i++) {
-            if(s[i] == boom[idx]) {
-                temp.push(s[i]);
-                idx++;
-            } else {
-                if(temp.size() == boom.length) {
-                    idx = 0;
-                    temp = new Stack<>();
-                } else {
-
-
+            if(sb.length() >= boom.length()) {  // sb의 길이가 boom 이상이 되면 확인
+                boolean sameFlag = true;
+                for(int j=0;j<boom.length();j++) {
+                    char ch1 = sb.charAt(sb.length()-boom.length()+j);
+                    char ch2 = boom.charAt(j);
+                    if(ch1 != ch2) {
+                        sameFlag = false;
+                        break;
+                    }
                 }
+                if(sameFlag) sb.delete(sb.length()-boom.length(), sb.length()); // 폭발 문자열 삭제
             }
-
         }
 
+        if(sb.length() == 0) System.out.println("FRULA");
+        else System.out.println(sb.toString());
 
     }
 }
