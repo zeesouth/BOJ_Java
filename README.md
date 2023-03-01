@@ -104,6 +104,7 @@
 - <a href="https://www.acmicpc.net/problem/2437">2437. 저울</a>
 - <a href="https://www.acmicpc.net/problem/1339">1339. 단어 수학</a>
 - <a href="https://www.acmicpc.net/problem/1744">1744. 수 묶기</a>
+- <a href="https://www.acmicpc.net/problem/11000">11000. 강의실 배정</a>
 </pre>
 </div>
 </details>
