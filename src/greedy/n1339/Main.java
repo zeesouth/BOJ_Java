@@ -1,37 +1,36 @@
 package greedy.n1339;
+// https://www.acmicpc.net/problem/1339
 
-import java.io.*;
 import java.util.*;
 
 public class Main {
-    static int max = 0, m = 9;
-    static int N, sum = 0;
-    static int[] arr = new int[10];
-    static Queue<Character>[] q = new Queue[9];
 
     public static void main (String[] args) throws Exception {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        N = Integer.parseInt(br.readLine());
-        for(int i=0;i<N;i++) {
-            String s = br.readLine();
-            max = Math.max(max, s.length());
-            for(int j=0;j<s.length();j++) {
-                char a = s.charAt(j);
-                if(q[s.length()-j] == null) q[s.length()-j] = new LinkedList<>();
-                q[s.length()-j].add(a);
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        String[] arr = new String[n];
+        int[] alpha = new int[26];
+
+        for(int i=0;i<n;i++) arr[i] = sc.next();
+
+        for(int i=0;i<n;i++) {
+            int temp = (int) Math.pow(10, arr[i].length() - 1);
+            for (int j = 0; j < arr[i].length(); j++) {
+                alpha[(int) arr[i].charAt(j) - 65] += temp;
+                temp /= 10;
             }
         }
 
-        for(int i=max;i>=1;i--) {
-            while(!q[i].isEmpty()) {
-                int c = q[i].poll()-'A';
-                if(arr[c] == 0) arr[c] = m--;
-                else {
+        Arrays.sort(alpha);
 
-                }
-                sum += arr[c]*(Math.pow(10, i-1));
-            }
+        int index = 9;
+        int sum =0;
+        for(int i=alpha.length-1; i>=0; i--){
+            if(alpha[i] == 0) break;
+            sum+=alpha[i]*index;
+            index--;
         }
+
         System.out.println(sum);
     }
 }
