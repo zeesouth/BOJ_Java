@@ -32,6 +32,7 @@
 - <a href="https://www.acmicpc.net/problem/11726">11726. 2×n 타일링</a>
 - <a href="https://www.acmicpc.net/problem/11727">11727. 2×n 타일링 2</a>
 - <a href="https://www.acmicpc.net/problem/1793">1793. 타일링</a>
+- <a href="https://www.acmicpc.net/problem/2096">2096. 내려가기</a>
 </pre>
 </div>
 </details>
