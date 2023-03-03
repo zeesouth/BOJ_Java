@@ -35,6 +35,7 @@
 - <a href="https://www.acmicpc.net/problem/2096">2096. 내려가기</a>
 - <a href="https://www.acmicpc.net/problem/15571">15571. 블록 3</a>
 - <a href="https://www.acmicpc.net/problem/15572">15572. 블록 4</a>
+- <a href="https://www.acmicpc.net/problem/2629">2629. 양팔저울</a>
 </pre>
 </div>
 </details>
