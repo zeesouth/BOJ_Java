@@ -189,6 +189,7 @@
 - <a href="https://www.acmicpc.net/problem/1005">1005. ACM Craft</a>
 - <a href="https://www.acmicpc.net/problem/3665">3665. 최종 순위</a>
 - <a href="https://www.acmicpc.net/problem/2623">2623. 음악프로그램</a>
+- <a href="https://www.acmicpc.net/problem/1516">1516. 게임 개발</a>
 </pre>
 </div>
 </details>
