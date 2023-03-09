@@ -145,6 +145,7 @@
 - <a href="https://www.acmicpc.net/problem/10815">10815. 숫자 카드</a>
 - <a href="https://www.acmicpc.net/problem/10816">10816. 숫자 카드 2</a>
 - <a href="https://www.acmicpc.net/problem/1654">1654. 랜선 자르기</a>
+- <a href="https://www.acmicpc.net/problem/2805">2805. 나무 자르기</a>
 </pre>
 </div>
 </details>
