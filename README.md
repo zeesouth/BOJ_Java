@@ -144,6 +144,7 @@
 - <a href="https://www.acmicpc.net/problem/12015">12015. 가장 긴 증가하는 부분 수열 2</a>
 - <a href="https://www.acmicpc.net/problem/10815">10815. 숫자 카드</a>
 - <a href="https://www.acmicpc.net/problem/10816">10816. 숫자 카드 2</a>
+- <a href="https://www.acmicpc.net/problem/1654">1654. 랜선 자르기</a>
 </pre>
 </div>
 </details>
