@@ -147,6 +147,7 @@
 - <a href="https://www.acmicpc.net/problem/1654">1654. 랜선 자르기</a>
 - <a href="https://www.acmicpc.net/problem/2805">2805. 나무 자르기</a>
 - <a href="https://www.acmicpc.net/problem/2110">2110. 공유기 설치</a>
+- <a href="https://www.acmicpc.net/problem/3020">3020. 개똥벌레</a>
 </pre>
 </div>
 </details>
@@ -213,6 +214,15 @@
 <div markdown="1">       
 <pre>
 - <a href="https://www.acmicpc.net/problem/5052">5052. 전화번호 목록</a>
+</pre>
+</div>
+</details>
+
+<details>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=79"> 누적합 (Prefix Sum)</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://www.acmicpc.net/problem/3020">3020. 개똥벌레</a>
 </pre>
 </div>
 </details>
