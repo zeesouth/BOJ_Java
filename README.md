@@ -219,7 +219,7 @@
 </details>
 
 <details>
-<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=79"> 누적합 (Prefix Sum)</a></summary>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=139"> 누적합 (Prefix Sum)</a></summary>
 <div markdown="1">       
 <pre>
 - <a href="https://www.acmicpc.net/problem/3020">3020. 개똥벌레</a>
