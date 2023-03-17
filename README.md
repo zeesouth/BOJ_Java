@@ -85,6 +85,7 @@
 - <a href="https://www.acmicpc.net/problem/7569">7569. 토마토</a>
 - <a href="https://www.acmicpc.net/problem/3197">3197. 백조의 호수</a>
 - <a href="https://www.acmicpc.net/problem/2665">2665. 미로만들기</a>
+- <a href="https://www.acmicpc.net/problem/2665">2206. 벽 부수고 이동하기</a>
 </pre>
 </div>
 </details>
