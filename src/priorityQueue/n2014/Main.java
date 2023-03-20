@@ -1,4 +1,4 @@
-package primaryQueue.n2014;
+package priorityQueue.n2014;
 
 import java.io.*;
 import java.util.*;

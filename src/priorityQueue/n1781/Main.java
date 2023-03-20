@@ -1,4 +1,4 @@
-package primaryQueue.n1781;
+package priorityQueue.n1781;
 // https://www.acmicpc.net/board/view/97635 반례
 // https://www.acmicpc.net/problem/1781
 

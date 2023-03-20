@@ -1,4 +1,4 @@
-package primaryQueue.n14464;
+package priorityQueue.n14464;
 // https://www.acmicpc.net/problem/14464
 // https://www.acmicpc.net/board/view/70045
 import java.io.*;
