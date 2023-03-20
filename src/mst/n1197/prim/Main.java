@@ -1,6 +1,6 @@
-package mst.n1197;
+package mst.n1197.prim;
 // https://www.acmicpc.net/problem/1197
-// MST 최소 스패닝 트리
+// MST 최소 스패닝 트리 - Prim (간선의 수가 클 때 사용)
 
 import java.io.*;
 import java.util.*;
