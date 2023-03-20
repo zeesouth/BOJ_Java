@@ -242,7 +242,8 @@
 <summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=49"> 최소 스패닝 트리 (MST)</a></summary>
 <div markdown="1">       
 <pre>
-- <a href="https://www.acmicpc.net/problem/1197">1197. 최소 스패닝 트리</a>
+- <a href="https://www.acmicpc.net/problem/1197">1197. 최소 스패닝 트리 (Prim, Kruskal)</a>
+- <a href="https://www.acmicpc.net/problem/1922">1922. 네트워크 연결 (Prim, Kruskal)</a>
 </pre>
 </div>
 </details>
