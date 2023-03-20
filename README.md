@@ -237,3 +237,12 @@
 </pre>
 </div>
 </details>
+
+<details>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=49"> 최소 스패닝 트리 (MST)</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://www.acmicpc.net/problem/1197">1197. 최소 스패닝 트리</a>
+</pre>
+</div>
+</details>
