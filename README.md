@@ -244,6 +244,7 @@
 <pre>
 - <a href="https://www.acmicpc.net/problem/1197">1197. 최소 스패닝 트리 (Prim, Kruskal)</a>
 - <a href="https://www.acmicpc.net/problem/1922">1922. 네트워크 연결 (Prim, Kruskal)</a>
+- <a href="https://www.acmicpc.net/problem/1647">1647. 도시 분할 계획 (Prim, Kruskal)</a>
 </pre>
 </div>
 </details>
