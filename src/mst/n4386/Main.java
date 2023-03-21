@@ -1,5 +1,5 @@
 package mst.n4386;
-// https://www.acmicpc.net/problem/4386
+// https://www.acmicpc.net/problem/4386 - Kruskal
 
 import java.io.*;
 import java.util.*;
