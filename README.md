@@ -47,6 +47,7 @@
 <div markdown="1">       
 <pre>
 - <a href="https://www.acmicpc.net/problem/15681">15681. 트리와 쿼리</a>
+- <a href="https://www.acmicpc.net/problem/2213">2213. 트리의 독립집합</a>
 - <a href="https://www.acmicpc.net/problem/2533">2533. 사회망 서비스(SNS)</a>
 </pre>
 </div>
