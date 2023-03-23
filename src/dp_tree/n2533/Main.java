@@ -1,4 +1,4 @@
-package dp.n2533;
+package dp_tree.n2533;
 // https://www.acmicpc.net/problem/2533
 
 import java.io.*;

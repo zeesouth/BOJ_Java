@@ -1,4 +1,4 @@
-package dp.n15681;
+package dp_tree.n15681;
 // https://www.acmicpc.net/problem/15681
 
 import java.io.*;
