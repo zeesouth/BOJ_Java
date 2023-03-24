@@ -205,6 +205,7 @@
 - <a href="https://www.acmicpc.net/problem/9376">9376. 탈옥</a>
 - <a href="https://www.acmicpc.net/problem/14938">14938. 서강그라운드</a>
 - <a href="https://www.acmicpc.net/problem/10282">10282. 해킹</a>
+- <a href="https://www.acmicpc.net/problem/2176">2176. 합리적인 이동경로</a>
 </pre>
 </div>
 </details>
