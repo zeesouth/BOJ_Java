@@ -52,6 +52,7 @@
 - <a href="https://www.acmicpc.net/problem/2533">2533. 사회망 서비스(SNS)</a>
 - <a href="https://www.acmicpc.net/problem/1949">1949. 우수 마을</a>
 - <a href="https://www.acmicpc.net/problem/1135">1135. 뉴스 전하기</a>
+- <a href="https://www.acmicpc.net/problem/11049">11049. 행렬 곱셈 순서</a>
 </pre>
 </div>
 </details>
