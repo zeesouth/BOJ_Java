@@ -39,6 +39,8 @@
 - <a href="https://www.acmicpc.net/problem/16194">16194. 카드 구매하기 2</a>
 - <a href="https://www.acmicpc.net/problem/5557">5557. 1학년</a>
 - <a href="https://www.acmicpc.net/problem/17070">17070. 파이프 옮기기 1</a>
+- <a href="https://www.acmicpc.net/problem/11049">11049. 행렬 곱셈 순서</a>
+- <a href="https://www.acmicpc.net/problem/2169">2169. 로봇 조종하기</a>
 </pre>
 </div>
 </details>
@@ -52,8 +54,6 @@
 - <a href="https://www.acmicpc.net/problem/2533">2533. 사회망 서비스(SNS)</a>
 - <a href="https://www.acmicpc.net/problem/1949">1949. 우수 마을</a>
 - <a href="https://www.acmicpc.net/problem/1135">1135. 뉴스 전하기</a>
-- <a href="https://www.acmicpc.net/problem/11049">11049. 행렬 곱셈 순서</a>
-- <a href="https://www.acmicpc.net/problem/2169">2169. 로봇 조종하기</a>
 </pre>
 </div>
 </details>
