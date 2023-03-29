@@ -133,6 +133,7 @@
 - <a href="https://www.acmicpc.net/problem/1339">1339. 단어 수학</a>
 - <a href="https://www.acmicpc.net/problem/1744">1744. 수 묶기</a>
 - <a href="https://www.acmicpc.net/problem/11000">11000. 강의실 배정</a>
+- <a href="https://www.acmicpc.net/problem/1700">1700. 멀티탭 스케줄링</a>
 </pre>
 </div>
 </details>
