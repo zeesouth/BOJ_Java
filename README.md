@@ -279,3 +279,12 @@
 </pre>
 </div>
 </details>
+
+<details>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=40"> KMP</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://www.acmicpc.net/problem/1701">1701. Cubeditor</a>
+</pre>
+</div>
+</details>
