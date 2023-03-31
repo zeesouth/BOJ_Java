@@ -173,6 +173,7 @@
 - <a href="https://www.acmicpc.net/problem/2110">2110. 공유기 설치</a>
 - <a href="https://www.acmicpc.net/problem/3020">3020. 개똥벌레</a>
 - <a href="https://www.acmicpc.net/problem/2143">2143. 두 배열의 합</a>
+- <a href="https://www.acmicpc.net/problem/2467">2467. 용액</a>
 </pre>
 </div>
 </details>
