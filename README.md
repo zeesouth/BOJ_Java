@@ -286,6 +286,7 @@
 <div markdown="1">       
 <pre>
 - <a href="https://www.acmicpc.net/problem/1701">1701. Cubeditor</a>
+- <a href="https://www.acmicpc.net/problem/1786">1786. 찾기</a>
 </pre>
 </div>
 </details>
