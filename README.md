@@ -288,6 +288,7 @@
 - <a href="https://www.acmicpc.net/problem/1701">1701. Cubeditor</a>
 - <a href="https://www.acmicpc.net/problem/1786">1786. 찾기</a>
 - <a href="https://www.acmicpc.net/problem/1305">1305. 광고</a>
+- <a href="https://www.acmicpc.net/problem/4354">4354. 문자열 제곱</a>
 </pre>
 </div>
 </details>
