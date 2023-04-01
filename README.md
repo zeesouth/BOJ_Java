@@ -287,6 +287,7 @@
 <pre>
 - <a href="https://www.acmicpc.net/problem/1701">1701. Cubeditor</a>
 - <a href="https://www.acmicpc.net/problem/1786">1786. 찾기</a>
+- <a href="https://www.acmicpc.net/problem/1305">1305. 광고</a>
 </pre>
 </div>
 </details>
