@@ -290,6 +290,7 @@
 - <a href="https://www.acmicpc.net/problem/1305">1305. 광고</a>
 - <a href="https://www.acmicpc.net/problem/4354">4354. 문자열 제곱</a>
 - <a href="https://www.acmicpc.net/problem/10266">10266. 시계 사진들</a>
+- <a href="https://www.acmicpc.net/problem/11585">11585. 속타는 저녁 메뉴</a>
 </pre>
 </div>
 </details>
