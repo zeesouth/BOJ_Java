@@ -12,6 +12,7 @@ public class Main {
     }
 
     // keypoint : 접두사 - 접미사가 같은 문자열의 최대 길이를 구하는 방법
+    // 문자열 안에 똑같은 패턴이 있다면 가장 짧은 패턴을 찾아내는 것
     static int getLastPI() {
         int idx = 0;
         pi = new int[L];
