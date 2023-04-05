@@ -278,6 +278,7 @@
 <pre>
 - <a href="https://www.acmicpc.net/problem/14503">14503. 로봇 청소기</a>
 - <a href="https://www.acmicpc.net/problem/14891">14891. 톱니바퀴</a>
+- <a href="https://www.acmicpc.net/problem/13460">13460. 구슬 탈출 2</a>
 </pre>
 </div>
 </details>
