@@ -176,6 +176,7 @@
 - <a href="https://www.acmicpc.net/problem/2143">2143. 두 배열의 합</a>
 - <a href="https://www.acmicpc.net/problem/2467">2467. 용액</a>
 - <a href="https://www.acmicpc.net/problem/1300">1300. K번째 수</a>
+- <a href="https://www.acmicpc.net/problem/1508">1508. 레이스</a>
 </pre>
 </div>
 </details>
