@@ -177,6 +177,7 @@
 - <a href="https://www.acmicpc.net/problem/2467">2467. 용액</a>
 - <a href="https://www.acmicpc.net/problem/1300">1300. K번째 수</a>
 - <a href="https://www.acmicpc.net/problem/1508">1508. 레이스</a>
+- <a href="https://www.acmicpc.net/problem/20917">20917. 사회적 거리 두기</a>
 </pre>
 </div>
 </details>
