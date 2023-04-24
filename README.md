@@ -301,3 +301,12 @@
 </pre>
 </div>
 </details>
+
+<details>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=24"> 분할 정복 (Divide and Conquer)</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://www.acmicpc.net/problem/2447">2447. 별 찍기 - 10</a>
+</pre>
+</div>
+</details>
