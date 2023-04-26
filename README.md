@@ -179,6 +179,7 @@
 - <a href="https://www.acmicpc.net/problem/1508">1508. 레이스</a>
 - <a href="https://www.acmicpc.net/problem/20917">20917. 사회적 거리 두기</a>
 - <a href="https://www.acmicpc.net/problem/17179">17179. 케이크 자르기</a>
+- <a href="https://www.acmicpc.net/problem/2632">2632. 피자판매</a>
 </pre>
 </div>
 </details>
