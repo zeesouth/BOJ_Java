@@ -41,6 +41,7 @@
 - <a href="https://www.acmicpc.net/problem/17070">17070. 파이프 옮기기 1</a>
 - <a href="https://www.acmicpc.net/problem/11049">11049. 행렬 곱셈 순서</a>
 - <a href="https://www.acmicpc.net/problem/2169">2169. 로봇 조종하기</a>
+- <a href="https://www.acmicpc.net/problem/2240">2240. 자두나무</a>
 </pre>
 </div>
 </details>
