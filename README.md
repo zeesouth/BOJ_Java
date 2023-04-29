@@ -311,6 +311,7 @@
 <div markdown="1">       
 <pre>
 - <a href="https://www.acmicpc.net/problem/2447">2447. 별 찍기 - 10</a>
+- <a href="https://www.acmicpc.net/problem/1629">1629. 곱셈</a>
 </pre>
 </div>
 </details>
