@@ -43,6 +43,7 @@
 - <a href="https://www.acmicpc.net/problem/2169">2169. 로봇 조종하기</a>
 - <a href="https://www.acmicpc.net/problem/2240">2240. 자두나무</a>
 - <a href="https://www.acmicpc.net/problem/2011">2011. 암호코드</a>
+- <a href="https://www.acmicpc.net/problem/9084">9084. 동전</a>
 </pre>
 </div>
 </details>
