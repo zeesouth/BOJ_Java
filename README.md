@@ -44,6 +44,7 @@
 - <a href="https://www.acmicpc.net/problem/2240">2240. 자두나무</a>
 - <a href="https://www.acmicpc.net/problem/2011">2011. 암호코드</a>
 - <a href="https://www.acmicpc.net/problem/9084">9084. 동전</a>
+- <a href="https://www.acmicpc.net/problem/1256">1256. 사전</a>
 </pre>
 </div>
 </details>
