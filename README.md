@@ -321,3 +321,12 @@
 </pre>
 </div>
 </details>
+
+<details>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=74"> 트리를 사용한 집합과 맵</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://www.acmicpc.net/problem/2447">2447. 별 찍기 - 10</a>
+- <a href="https://www.acmicpc.net/problem/7662">7662. 이중 우선순위 큐</a>
+</div>
+</details>
