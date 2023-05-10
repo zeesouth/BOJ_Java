@@ -144,7 +144,7 @@
 </pre>
 </div>
 </details>
-디
+
 <details>
 <summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=59"> 우선순위 큐</a></summary>
 <div markdown="1">       
@@ -200,7 +200,7 @@
 - <a href="https://www.acmicpc.net/problem/16434">16434. 드래곤 앤 던전</a>
 </pre>
 </div>
-</details>인
+</details>
 
 <details>
 <summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=5"> 백트래킹 (Back Tracking)</a></summary>
