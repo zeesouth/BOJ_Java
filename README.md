@@ -331,3 +331,11 @@
 - <a href="https://www.acmicpc.net/problem/7662">7662. 이중 우선순위 큐</a>
 </div>
 </details>
+
+<details>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=6"> 조합론</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://www.acmicpc.net/problem/15791">15791. 세진이의 미팅</a>
+</div>
+</details>
