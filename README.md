@@ -210,8 +210,9 @@
 - <a href="https://www.acmicpc.net/problem/1987">1987. 알파벳</a>
 - <a href="https://www.acmicpc.net/problem/19236">19236. 청소년 상어</a>
 - <a href="https://www.acmicpc.net/problem/1759">1759. 암호 만들기</a>
+- <a href="https://www.acmicpc.net/problem/17471">17471. 게리맨더링</a>
 </pre>
-</div>
+</div>트
 </details>
 
 <details>
