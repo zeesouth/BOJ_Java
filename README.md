@@ -212,7 +212,7 @@
 - <a href="https://www.acmicpc.net/problem/1759">1759. 암호 만들기</a>
 - <a href="https://www.acmicpc.net/problem/17471">17471. 게리맨더링</a>
 </pre>
-</div>트
+</div>
 </details>
 
 <details>
