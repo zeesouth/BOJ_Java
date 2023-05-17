@@ -335,7 +335,7 @@
 </details>
 
 <details>
-<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=6"> 조합론/a></summary>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=6"> 조합론</a></summary>
 <div markdown="1">       
 <pre>
 - <a href="https://www.acmicpc.net/problem/15791">15791. 세진이의 미팅</a>
