@@ -340,5 +340,6 @@
 <pre>
 - <a href="https://www.acmicpc.net/problem/15791">15791. 세진이의 미팅</a>
 - <a href="https://www.acmicpc.net/problem/17205">17205. 진우의 비밀번호</a>
+- <a href="https://www.acmicpc.net/problem/15824">15824. 너 봄에는 캡사이신이 맛있단다</a>
 </div>
 </details>
