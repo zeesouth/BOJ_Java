@@ -211,6 +211,7 @@
 - <a href="https://www.acmicpc.net/problem/19236">19236. 청소년 상어</a>
 - <a href="https://www.acmicpc.net/problem/1759">1759. 암호 만들기</a>
 - <a href="https://www.acmicpc.net/problem/17471">17471. 게리맨더링</a>
+- <a href="https://www.acmicpc.net/problem/1062">1062. 가르침</a>
 </pre>
 </div>
 </details>
