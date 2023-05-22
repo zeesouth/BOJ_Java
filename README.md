@@ -141,6 +141,7 @@
 - <a href="https://www.acmicpc.net/problem/1700">1700. 멀티탭 스케줄링</a>
 - <a href="https://www.acmicpc.net/problem/17280">17280. 카풀 매칭</a>
 - <a href="https://www.acmicpc.net/problem/3109">3109. 빵집</a>
+- <a href="https://www.acmicpc.net/problem/8980">8980. 택배</a>
 </pre>
 </div>
 </details>
@@ -211,7 +212,7 @@
 - <a href="https://www.acmicpc.net/problem/19236">19236. 청소년 상어</a>
 - <a href="https://www.acmicpc.net/problem/1759">1759. 암호 만들기</a>
 - <a href="https://www.acmicpc.net/problem/17471">17471. 게리맨더링</a>
-- <a href="https://www.acmicpc.net/problem/1062">1062. 가르침</a>
+- <a href="https://www.acmicpc.net/problem/1062">1062. 가르</a>
 </pre>
 </div>
 </details>
