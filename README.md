@@ -142,6 +142,7 @@
 - <a href="https://www.acmicpc.net/problem/17280">17280. 카풀 매칭</a>
 - <a href="https://www.acmicpc.net/problem/3109">3109. 빵집</a>
 - <a href="https://www.acmicpc.net/problem/8980">8980. 택배</a>
+- <a href="https://www.acmicpc.net/problem/18234">18234. 당근 훔쳐 먹기</a>
 </pre>
 </div>
 </details>
