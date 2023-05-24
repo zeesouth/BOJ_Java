@@ -143,6 +143,7 @@
 - <a href="https://www.acmicpc.net/problem/3109">3109. 빵집</a>
 - <a href="https://www.acmicpc.net/problem/8980">8980. 택배</a>
 - <a href="https://www.acmicpc.net/problem/18234">18234. 당근 훔쳐 먹기</a>
+- <a href="https://www.acmicpc.net/problem/1092">1092. 배</a>
 </pre>
 </div>
 </details>
