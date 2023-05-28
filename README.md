@@ -193,6 +193,7 @@
 - <a href="https://www.acmicpc.net/problem/2632">2632. 피자판매</a>
 - <a href="https://www.acmicpc.net/problem/8983">8983. 사냥꾼</a>
 - <a href="https://www.acmicpc.net/problem/3649">3649. 로봇 프로젝트</a>
+- <a href="https://www.acmicpc.net/problem/2470">2470. 두 용액</a>
 </pre>
 </div>
 </details>
