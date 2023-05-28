@@ -7,11 +7,12 @@ import java.util.*;
 public class Main {
     static int N;
     static Village[] village;
+
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         N = Integer.parseInt(br.readLine());
         village = new Village[N];
-        int res = 0;
+        long res = 0;
         for (int i = 0; i < N; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
             int x = Integer.parseInt(st.nextToken());
