@@ -46,6 +46,7 @@
 - <a href="https://www.acmicpc.net/problem/9084">9084. 동전</a>
 - <a href="https://www.acmicpc.net/problem/1256">1256. 사전</a>
 - <a href="https://www.acmicpc.net/problem/25759">25759. 들판 건너가기</a>
+- <a href="https://www.acmicpc.net/problem/1576">1576. DNA점수</a>
 </pre>
 </div>
 </details>
