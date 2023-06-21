@@ -212,6 +212,7 @@
 - <a href="https://www.acmicpc.net/problem/1253">1253. 좋다</a>
 - <a href="https://www.acmicpc.net/problem/1806">1806. 부분합</a>
 - <a href="https://www.acmicpc.net/problem/16434">16434. 드래곤 앤 던전</a>
+- <a href="https://www.acmicpc.net/problem/13422">13422. 도둑</a>
 </pre>
 </div>
 </details>
