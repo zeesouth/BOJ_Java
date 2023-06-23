@@ -288,6 +288,7 @@
 - <a href="https://www.acmicpc.net/problem/11660">11660. 구간 합 구하기 5</a>
 - <a href="https://www.acmicpc.net/problem/2143">2143. 두 배열의 합</a>
 - <a href="https://www.acmicpc.net/problem/14846">14846. 직사각형과 쿼리</a>
+- <a href="https://www.acmicpc.net/problem/2560">2560. 짚신벌레</a>
 </pre>
 </div>
 </details>
