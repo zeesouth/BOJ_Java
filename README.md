@@ -287,6 +287,7 @@
 - <a href="https://www.acmicpc.net/problem/11659">11659. 구간 합 구하기 4</a>
 - <a href="https://www.acmicpc.net/problem/11660">11660. 구간 합 구하기 5</a>
 - <a href="https://www.acmicpc.net/problem/2143">2143. 두 배열의 합</a>
+- <a href="https://www.acmicpc.net/problem/14846">14846. 직사각형과 쿼리</a>
 </pre>
 </div>
 </details>
@@ -295,7 +296,7 @@
 <summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=49"> 최소 스패닝 트리 (MST)</a></summary>
 <div markdown="1">       
 <pre>
-- <a href="https://www.acmicpc.net/problem/1197">1197. 최소 스패닝 트리 (Prim, Kruskal)</a>
+- <a href="https://www.acmicpc.net/problem/1197">1197. 최소 스패닝 트리 (Prim, Kr적uskal)</a>
 - <a href="https://www.acmicpc.net/problem/1922">1922. 네트워크 연결 (Prim, Kruskal)</a>
 - <a href="https://www.acmicpc.net/problem/1647">1647. 도시 분할 계획 (Prim, Kruskal)</a>
 - <a href="https://www.acmicpc.net/problem/4386">4386. 별자리 만들기 (Kruskal)</a>
