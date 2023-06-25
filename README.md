@@ -290,6 +290,7 @@
 - <a href="https://www.acmicpc.net/problem/14846">14846. 직사각형과 쿼리</a>
 - <a href="https://www.acmicpc.net/problem/2560">2560. 짚신벌레</a>
 - <a href="https://www.acmicpc.net/problem/2616">2616. 소형기관차</a>
+- <a href="https://www.acmicpc.net/problem/2208">2208. 보석 줍기</a>
 </pre>
 </div>
 </details>
