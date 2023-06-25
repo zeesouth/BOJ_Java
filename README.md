@@ -296,6 +296,7 @@
 - <a href="https://www.acmicpc.net/problem/2559">2559. 수열</a>
 - <a href="https://www.acmicpc.net/problem/16139">16139. 인간-컴퓨터 상호작용</a>
 - <a href="https://www.acmicpc.net/problem/1912">1912. 연속합</a>
+- <a href="https://www.acmicpc.net/problem/10986">10986. 나머지 합</a>
 </pre>
 </div>
 </details>
