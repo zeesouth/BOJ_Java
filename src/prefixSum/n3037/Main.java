@@ -20,7 +20,7 @@ public class Main {
         */
 
         // BOTTOM-UP
-        // https://hellojaehoon.tistory.com/71
+        // https://blog.naver.com/pasdfq/221368925855
         dp[0][0] = 1;
         for (int i = 1; i <= N; i++) {
             int sum[] = new int[MAX_C + 2];
