@@ -291,6 +291,7 @@
 - <a href="https://www.acmicpc.net/problem/2560">2560. 짚신벌레</a>
 - <a href="https://www.acmicpc.net/problem/2616">2616. 소형기관차</a>
 - <a href="https://www.acmicpc.net/problem/2208">2208. 보석 줍기</a>
+- <a href="https://www.acmicpc.net/problem/3037">3037. 혼란</a>
 </pre>
 </div>
 </details>
