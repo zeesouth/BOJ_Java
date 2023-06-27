@@ -298,6 +298,7 @@
 - <a href="https://www.acmicpc.net/problem/1912">1912. 연속합</a>
 - <a href="https://www.acmicpc.net/problem/10986">10986. 나머지 합</a>
 - <a href="https://www.acmicpc.net/problem/5549">5549. 행성 탐사</a>
+- <a href="https://www.acmicpc.net/problem/21757">21757. 누적합</a>
 </pre>
 </div>
 </details>
