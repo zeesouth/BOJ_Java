@@ -5,10 +5,15 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
+    static final int MAX_N = 100000;
+    static long psum[] = new long[MAX_N + 1];
+    static long dp[][] = new long[MAX_N + 1][3 + 1];
+    static long val;
+    static int N;
+
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int N = Integer.parseInt(br.readLine());
-        long psum[] = new long[N + 1];
+        N = Integer.parseInt(br.readLine());
         StringTokenizer st = new StringTokenizer(br.readLine());
         for (int i = 1; i <= N; i++) psum[i] = psum[i - 1] + Long.parseLong(st.nextToken());
 
@@ -21,20 +26,41 @@ public class Main {
                 for (int i = 1; i <= N; i++) if (psum[i] == 0) zero++;
                 ans = (zero - 1) * (zero - 2) * (zero - 3) / 6;
             } else {
-                long dp[] = new long[5];
-                dp[0] = 1;
-                long val = psum[N] / 4;
-
+                val = psum[N] / 4;
+                for (int i = 0; i <= N; i++) Arrays.fill(dp[i], -1);
                 for (int i = 1; i <= N; i++) {
-                    int t = (int) (psum[i] / val);
-                    if(psum[i] % val != 0 || t < 1 || t > 4) continue;
-                    dp[t] += dp[t-1];
+                    if (psum[i] == val) ans += DP(i + 1, 1);
                 }
-                ans = dp[4];
             }
         }
 
         System.out.println(ans);
         br.close();
     }
+
+    static long DP(int idx, int cnt) {
+        if (dp[idx][cnt] >= 0) return dp[idx][cnt];
+
+        if (idx > N) return dp[idx][cnt] = 0;
+
+        if (cnt == 3) {
+            if (psum[N] - psum[idx - 1] == val) return dp[idx][cnt] = 1;
+            else return dp[idx][cnt] = 0;
+        }
+
+        long ret = 0;
+        for (int i = idx; i <= N; i++) {
+            long tmp = psum[i] - psum[idx - 1];
+
+            // 첫 번쨰 수열 값과 같은 경우
+            if(tmp == val) ret += DP(i+1, cnt+1);
+        }
+
+        return dp[idx][cnt] = ret;
+    }
 }
+
+/*
+수열을 무조건 연속된 네 부분으로 나누기
+dp[i][j] : i번째까지 j번으로 나누는 경우의 수
+ */
