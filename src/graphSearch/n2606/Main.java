@@ -37,7 +37,7 @@ public class Main {
 
         while(!stack.isEmpty()) {
             int c = stack.pop();
-
+            if(nodes[c] == null) continue;
             for(int child : nodes[c]) {
                 if(visited[c] && !visited[child]) {
                     stack.push(child);
