@@ -326,6 +326,7 @@
 - <a href="https://www.acmicpc.net/problem/13460">13460. 구슬 탈출 2</a>
 - <a href="https://www.acmicpc.net/problem/15683">15683. 감시</a>
 - <a href="https://www.acmicpc.net/problem/14499">14499. 주사위 굴리기</a>
+- <a href="https://www.acmicpc.net/problem/23288">23288. 주사위 굴리기 2</a>
 </pre>
 </div>
 </details>
