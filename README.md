@@ -48,6 +48,7 @@
 - <a href="https://www.acmicpc.net/problem/25759">25759. 들판 건너가기</a>
 - <a href="https://www.acmicpc.net/problem/1576">1576. DNA점수</a>
 - <a href="https://www.acmicpc.net/problem/2228">2228. 구간 나누기</a>
+- <a href="https://www.acmicpc.net/problem/2225">2225. 합분해</a>
 </pre>
 </div>
 </details>
