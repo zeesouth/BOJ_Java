@@ -49,6 +49,7 @@
 - <a href="https://www.acmicpc.net/problem/1576">1576. DNA점수</a>
 - <a href="https://www.acmicpc.net/problem/2228">2228. 구간 나누기</a>
 - <a href="https://www.acmicpc.net/problem/2225">2225. 합분해</a>
+- <a href="https://www.acmicpc.net/problem/2602">2602. 돌다리 건너기</a>
 </pre>
 </div>
 </details>
