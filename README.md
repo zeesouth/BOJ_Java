@@ -51,6 +51,7 @@
 - <a href="https://www.acmicpc.net/problem/2225">2225. 합분해</a>
 - <a href="https://www.acmicpc.net/problem/2602">2602. 돌다리 건너기</a>
 - <a href="https://www.acmicpc.net/problem/2631">2631. 줄세우기</a>
+- <a href="https://www.acmicpc.net/problem/1958">1958. LCS 3</a>
 </pre>
 </div>
 </details>
