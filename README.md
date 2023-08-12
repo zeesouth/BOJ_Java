@@ -207,7 +207,7 @@
 - <a href="https://www.acmicpc.net/problem/3649">3649. 로봇 프로젝트</a>
 - <a href="https://www.acmicpc.net/problem/2470">2470. 두 용액</a>
 - <a href="https://www.acmicpc.net/problem/2613">2613. 숫자구슬</a>
-</pre>
+- <a href="https://www.acmicpc.net/problem/14002">14002. 가장 긴 증가하는 부분 수열 4</a>
 </div>
 </details>
 
