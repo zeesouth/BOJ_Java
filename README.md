@@ -54,6 +54,7 @@
 - <a href="https://www.acmicpc.net/problem/1958">1958. LCS 3</a>
 - <a href="https://www.acmicpc.net/problem/2482">2482. 색상환</a>
 - <a href="https://www.acmicpc.net/problem/2306">2306. 유전자</a>
+- <a href="https://www.acmicpc.net/problem/1633">1633. 최고의 팀 만들기</a>
 </pre>
 </div>
 </details>
