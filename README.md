@@ -53,6 +53,7 @@
 - <a href="https://www.acmicpc.net/problem/2631">2631. 줄세우기</a>
 - <a href="https://www.acmicpc.net/problem/1958">1958. LCS 3</a>
 - <a href="https://www.acmicpc.net/problem/2482">2482. 색상환</a>
+- <a href="https://www.acmicpc.net/problem/2306">2306. 유전자</a>
 </pre>
 </div>
 </details>
