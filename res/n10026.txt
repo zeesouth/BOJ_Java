@@ -1,0 +1,12 @@
+2
+RG
+GR
+- 4 1
+
+5
+RRRRR
+RBBBR
+RBGBR
+RBBBR
+RRRRR
+- 3, 3
