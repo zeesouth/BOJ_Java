@@ -58,6 +58,8 @@
 - <a href="https://www.acmicpc.net/problem/2688">2688. 줄어들지 않아</a>
 - <a href="https://www.acmicpc.net/problem/4811">4811. 알약</a>
 - <a href="https://www.acmicpc.net/problem/1563">1563. 개근상</a>
+- <a href="https://www.acmicpc.net/problem/12869">12869. 뮤탈리스크</a>
+- <a href="https://www.acmicpc.net/problem/17265">17265. 나의 인생에는 수학과 함께</a>
 </pre>
 </div>
 </details>
