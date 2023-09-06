@@ -346,6 +346,7 @@
 - <a href="https://www.acmicpc.net/problem/14499">14499. 주사위 굴리기</a>
 - <a href="https://www.acmicpc.net/problem/23288">23288. 주사위 굴리기 2</a>
 - <a href="https://www.acmicpc.net/problem/10026">10026. 적록색약</a>
+- <a href="https://www.acmicpc.net/problem/19235">19235. 모노미노도미노</a>
 </pre>
 </div>
 </details>
