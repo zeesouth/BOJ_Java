@@ -348,6 +348,7 @@
 - <a href="https://www.acmicpc.net/problem/10026">10026. 적록색약</a>
 - <a href="https://www.acmicpc.net/problem/19235">19235. 모노미노도미노</a>
 - <a href="https://www.acmicpc.net/problem/17143">17143. 낚시왕</a>
+- <a href="https://www.acmicpc.net/problem/2424">2424. 부산의 해적</a>
 </pre>
 </div>
 </details>
