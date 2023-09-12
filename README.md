@@ -398,3 +398,11 @@
 - <a href="https://www.acmicpc.net/problem/10978">10978. 기숙사 재배정</a>
 </div>
 </details>
+
+<details>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=71"> 스택</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://www.acmicpc.net/problem/1918">1918. 후위 표기식</a>
+</div>
+</details>
