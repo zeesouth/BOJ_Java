@@ -89,6 +89,7 @@
 - <a href="https://www.acmicpc.net/problem/9935">9935. 문자열 폭발</a>
 - <a href="https://www.acmicpc.net/problem/5430">5430. AC</a>
 - <a href="https://www.acmicpc.net/problem/17609">17609. 회문</a>
+- <a href="https://www.acmicpc.net/problem/1013">1013. Contact</a>
 </pre>
 </div>
 </details>
