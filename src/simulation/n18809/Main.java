@@ -86,13 +86,13 @@ public class Main {
                     // 호수거나 이미 배양액을 뿌리거나 이미 꽃이 핀 경우
                     if (tempMap[nextY][nextX] == 0 || tempMap[nextY][nextX] >= 3) continue;
 
-                    // 배양액이 확산될 수 있는 범위인 경우
+                    // 배양액이 확산될 수 있는 칸인 경우
                     if (tempMap[nextY][nextX] == 1 || tempMap[nextY][nextX] == 2) {
-                        tempMap[nextY][nextX] = -tempMap[y][x];
+                        tempMap[nextY][nextX] = -color;
                         q.offer(new int[]{nextY, nextX, color});
                     }
                     // 꽃이 피게 될 경우
-                    else if (tempMap[nextY][nextX] - tempMap[y][x] == -7) {
+                    else if (tempMap[nextY][nextX] - color == -7) {
                         tempMap[nextY][nextX] = 5;
                         tempAns++;
                     }
