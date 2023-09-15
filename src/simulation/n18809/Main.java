@@ -8,7 +8,7 @@ public class Main {
     static final int[] dx = {0, 1, 0, -1};
     static int N, M, G, R, K, tempAns, ans;
     static int[][] map, tempMap;
-    static int[] canGrow, red, green, choice;
+    static int[] canGrow, red, green;
     static boolean[][] visited;
 
     public static void main(String[] args) throws Exception {
@@ -23,14 +23,6 @@ public class Main {
         if (rCnt + gCnt == R + G) {
             tempAns = 0;
             tempMap = copy();
-
-            for (int i = 0; i < G; i++) {
-                tempMap[green[i] / M][green[i] % M] = 3;
-            }
-            for (int i = 0; i < R; i++) {
-                tempMap[red[i] / M][red[i] % M] = 4;
-            }
-
             visited = new boolean[N][M];
             bfs();
         }
@@ -54,21 +46,30 @@ public class Main {
     private static void bfs() {
         Queue<int[]> q = new LinkedList<>();
 
-        for (int i = 0; i < N; i++) {
-            for (int j = 0; j < M; j++) {
-                if (!visited[i][j] && (tempMap[i][j] == 3 || tempMap[i][j] == 4)) {
-                    visited[i][j] = true;
-                    q.offer(new int[]{i, j, tempMap[i][j]});
-                }
-            }
+        // 초록 배양액의 시작 위치 지정 & 큐에 넣기
+        for (int i = 0; i < G; i++) {
+            int y = green[i] / M;
+            int x = green[i] % M;
+            tempMap[y][x] = 3;
+            visited[y][x] = true;
+            q.offer(new int[]{y, x, tempMap[y][x]});
         }
 
+        // 빨간 배양액의 시작 위치 지정 & 큐에 넣기
+        for (int i = 0; i < R; i++) {
+            int y = red[i] / M;
+            int x = red[i] % M;
+            tempMap[y][x] = 4;
+            q.offer(new int[]{y, x, tempMap[y][x]});
+        }
+
+        // 배양액 확산 시뮬레이션
         while (!q.isEmpty()) {
             int size = q.size();
             while (size-- > 0) {
                 int[] temp = q.poll();
                 int y = temp[0], x = temp[1], color = temp[2];
-                if (tempMap[y][x] == 5) continue;   // 이미 꽃이 핀 장소
+                if (tempMap[y][x] == 5) continue;   // 이미 꽃이 핀 장소는 SKIP
                 tempMap[y][x] = color;
                 visited[y][x] = true;
                 q.offer(new int[]{y, x, color});
@@ -82,12 +83,16 @@ public class Main {
                     int nextY = y + dy[d], nextX = x + dx[d];
                     if (!isRange(nextY, nextX)) continue;
                     if (visited[nextY][nextX]) continue;
+                    // 호수거나 이미 배양액을 뿌리거나 이미 꽃이 핀 경우
                     if (tempMap[nextY][nextX] == 0 || tempMap[nextY][nextX] >= 3) continue;
 
+                    // 배양액이 확산될 수 있는 범위인 경우
                     if (tempMap[nextY][nextX] == 1 || tempMap[nextY][nextX] == 2) {
                         tempMap[nextY][nextX] = -tempMap[y][x];
                         q.offer(new int[]{nextY, nextX, color});
-                    } else if (tempMap[nextY][nextX] - tempMap[y][x] == -7) {
+                    }
+                    // 꽃이 피게 될 경우
+                    else if (tempMap[nextY][nextX] - tempMap[y][x] == -7) {
                         tempMap[nextY][nextX] = 5;
                         tempAns++;
                     }
@@ -132,7 +137,6 @@ public class Main {
                 }
             }
         }
-
     }
 
     static boolean isRange(int y, int x) {
