@@ -320,6 +320,7 @@
 - <a href="https://www.acmicpc.net/problem/5549">5549. 행성 탐사</a>
 - <a href="https://www.acmicpc.net/problem/21757">21757. 나누기</a>
 - <a href="https://www.acmicpc.net/problem/3114">3114. 사과와 바나나</a>
+- <a href="https://www.acmicpc.net/problem/10800">10800. 컬러볼</a>
 </pre>
 </div>
 </details>
