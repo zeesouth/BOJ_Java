@@ -352,6 +352,7 @@
 - <a href="https://www.acmicpc.net/problem/17143">17143. 낚시왕</a>
 - <a href="https://www.acmicpc.net/problem/2424">2424. 부산의 해적</a>
 - <a href="https://www.acmicpc.net/problem/18809">18809. Gaaaaaaaaaarden</a>
+- <a href="https://www.acmicpc.net/problem/5373">5373. 큐빙</a>
 </pre>
 </div>
 </details>
