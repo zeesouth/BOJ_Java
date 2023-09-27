@@ -353,6 +353,7 @@
 - <a href="https://www.acmicpc.net/problem/2424">2424. 부산의 해적</a>
 - <a href="https://www.acmicpc.net/problem/18809">18809. Gaaaaaaaaaarden</a>
 - <a href="https://www.acmicpc.net/problem/5373">5373. 큐빙</a>
+- <a href="https://www.acmicpc.net/problem/10875">10875. 뱀</a>
 </pre>
 </div>
 </details>
