@@ -382,6 +382,7 @@
 - <a href="https://www.acmicpc.net/problem/2447">2447. 별 찍기 - 10</a>
 - <a href="https://www.acmicpc.net/problem/1629">1629. 곱셈</a>
 - <a href="https://www.acmicpc.net/problem/10830">10830. 행렬 제곱</a>
+- <a href="https://www.acmicpc.net/problem/2263">2263. 트리의 순회</a>
 </pre>
 </div>
 </details>
