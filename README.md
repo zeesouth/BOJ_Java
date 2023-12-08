@@ -356,6 +356,7 @@
 - <a href="https://www.acmicpc.net/problem/5373">5373. 큐빙</a>
 - <a href="https://www.acmicpc.net/problem/10875">10875. 뱀</a>
 - <a href="https://www.acmicpc.net/problem/2933">2933. 미네랄</a>
+- <a href="https://www.acmicpc.net/problem/1113">1113. 수영장 만들기</a>
 </pre>
 </div>
 </details>
