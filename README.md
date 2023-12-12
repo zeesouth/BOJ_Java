@@ -358,6 +358,7 @@
 - <a href="https://www.acmicpc.net/problem/2933">2933. 미네랄</a>
 - <a href="https://www.acmicpc.net/problem/1113">1113. 수영장 만들기</a>
 - <a href="https://www.acmicpc.net/problem/12100">12100. 2048 (Easy)</a>
+- <a href="https://www.acmicpc.net/problem/25173">25173. 용감한 아리의 동굴 대탈출</a>
 </pre>
 </div>
 </details>
