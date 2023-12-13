@@ -289,6 +289,7 @@
 <div markdown="1">       
 <pre>
 - <a href="https://www.acmicpc.net/problem/15660">15660. 테르토미노 (2)</a>
+- <a href="https://www.acmicpc.net/problem/1025">1025. 제곱수 찾기</a>
 </pre>
 </div>
 </details>
