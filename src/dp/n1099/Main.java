@@ -1,5 +1,4 @@
 package dp.n1099;
-// https://www.acmicpc.net/problem/1099
 
 import java.io.*;
 import java.util.*;
