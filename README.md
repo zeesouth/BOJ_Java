@@ -421,3 +421,11 @@
 - <a href="https://www.acmicpc.net/problem/1918">1918. 후위 표기식</a>
 </div>
 </details>
+
+<details>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=81"> 분리 집합</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://www.acmicpc.net/problem/16562">16562. 친구비</a>
+</div>
+</details>

@@ -1,4 +1,4 @@
-package test.n16562;
+package disjointSet.n16562;
 
 import java.io.*;
 import java.util.*;
@@ -7,7 +7,7 @@ public class Main {
     static final int MAX = 10000;
     static int N, K;
     static int price[] = new int[MAX + 1];
-    static ArrayList<Integer> graph[] = new ArrayList[MAX + 1];
+    static int parent[] = new int[MAX + 1];
 
     public static void main(String[] args) throws Exception {
         init();
@@ -20,23 +20,16 @@ public class Main {
         boolean visited[] = new boolean[N + 1];
 
         for (int i = 1; i <= N; i++) {
-            if (visited[i]) continue;
-            visited[i] = true;
+            int root = find(i);
 
-            int min = price[i];
-            Queue<Integer> q = new LinkedList<>();
-            q.add(i);
-
-            while (!q.isEmpty()) {
-                int curr = q.poll();
-                for (int next : graph[curr]) {
-                    if (visited[next]) continue;
-                    visited[next] = true;
-                    min = Math.min(min, price[next]);
-                    q.add(next);
-                }
+            if (visited[root]) {
+                visited[i] = true;
+                continue;
             }
-            ans += min;
+
+            visited[root] = true;
+            visited[i] = true;
+            ans += price[root];
         }
 
         return ans > K ? -1 : ans;
@@ -51,8 +44,8 @@ public class Main {
 
         st = new StringTokenizer(br.readLine());
         for (int i = 1; i <= N; i++) {
-            graph[i] = new ArrayList<>();
             price[i] = Integer.parseInt(st.nextToken());
+            parent[i] = i;
         }
 
         while (M-- > 0) {
@@ -60,8 +53,24 @@ public class Main {
             int a = Integer.parseInt(st.nextToken());
             int b = Integer.parseInt(st.nextToken());
 
-            graph[a].add(b);
-            graph[b].add(a);
+            union(a, b);
         }
     }
+
+    private static void union(int a, int b) {
+        int p1 = find(a);
+        int p2 = find(b);
+
+        if (price[p1] >= price[p2]) parent[p1] = p2;
+        else parent[p2] = p1;
+    }
+
+    private static int find(int i) {
+        if (parent[i] == i) return i;
+        return parent[i] = find(parent[i]);
+    }
 }
+
+/*
+분리 집합 : https://4legs-study.tistory.com/94
+ */
