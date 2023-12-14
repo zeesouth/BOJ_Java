@@ -130,6 +130,7 @@
 - <a href="https://www.acmicpc.net/problem/2665">2206. 벽 부수고 이동하기</a>
 - <a href="https://www.acmicpc.net/problem/1600">1600. 말이 되고픈 원숭이</a>
 - <a href="https://www.acmicpc.net/problem/1175">1175. 배달</a>
+- <a href="https://www.acmicpc.net/problem/1039">1039. 교환</a>
 </pre>
 </div>
 </details>
