@@ -16,7 +16,6 @@
 - <a href="https://www.acmicpc.net/problem/27212">27212. 미팅</a>
 - <a href="https://www.acmicpc.net/problem/11066">11066. 파일 합치기</a>
 - <a href="https://www.acmicpc.net/problem/12865">12865. 평범한 배낭</a>
-- <a href="https://www.acmicpc.net/problem/7579">7579. 앱</a>
 - <a href="https://www.acmicpc.net/problem/2293">2293. 동전 1</a>
 - <a href="https://www.acmicpc.net/problem/2294">2294. 동전 2</a>
 - <a href="https://www.acmicpc.net/problem/11053">11053. 가장 긴 증가하는 부분 수열</a>
@@ -62,6 +61,7 @@
 - <a href="https://www.acmicpc.net/problem/17265">17265. 나의 인생에는 수학과 함께</a>
 - <a href="https://www.acmicpc.net/problem/1029">1029. 그림 교환</a>
 - <a href="https://www.acmicpc.net/problem/1099">1099. 알 수 없는 문장</a>
+- <a href="https://www.acmicpc.net/problem/7579">7579. 앱</a>
 </pre>
 </div>
 </details>
