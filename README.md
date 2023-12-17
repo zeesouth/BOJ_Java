@@ -429,3 +429,11 @@
 - <a href="https://www.acmicpc.net/problem/16562">16562. 친구비</a>
 </div>
 </details>
+
+<details>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=120"> 트리</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://www.acmicpc.net/problem/1167">1167. 트리의 지름</a>
+</div>
+</details>
