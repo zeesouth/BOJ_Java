@@ -437,5 +437,6 @@
 <div markdown="1">       
 <pre>
 - <a href="https://www.acmicpc.net/problem/1167">1167. 트리의 지름</a>
+- <a href="https://www.acmicpc.net/problem/1967">1967. 트리의 지름</a>
 </div>
 </details>
