@@ -62,6 +62,7 @@
 - <a href="https://www.acmicpc.net/problem/1029">1029. 그림 교환</a>
 - <a href="https://www.acmicpc.net/problem/1099">1099. 알 수 없는 문장</a>
 - <a href="https://www.acmicpc.net/problem/7579">7579. 앱</a>
+- <a href="https://www.acmicpc.net/problem/2091">2091. 동전</a>
 </pre>
 </div>
 </details>
