@@ -426,7 +426,7 @@
 
 <details>
 <summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=81"> 분리 집합</a></summary>
-<div markdown="1">       
+<div markdown="1">
 <pre>
 - <a href="https://www.acmicpc.net/problem/16562">16562. 친구비</a>
 </div>
@@ -438,5 +438,13 @@
 <pre>
 - <a href="https://www.acmicpc.net/problem/1167">1167. 트리의 지름</a>
 - <a href="https://www.acmicpc.net/problem/1967">1967. 트리의 지름</a>
+</div>
+</details>
+
+<details>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=10"> 벨만-포드</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://www.acmicpc.net/problem/1865">1865. 웜홀</a>
 </div>
 </details>
