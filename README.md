@@ -271,6 +271,7 @@
 - <a href="https://www.acmicpc.net/problem/10282">10282. 해킹</a>
 - <a href="https://www.acmicpc.net/problem/2176">2176. 합리적인 이동경로</a>
 - <a href="https://www.acmicpc.net/problem/2211">2211. 네트워크 복구</a>
+- <a href="https://www.acmicpc.net/problem/30985">30985. 직장인 파댕이의 사회생활</a>
 </pre>
 </div>
 </details>
@@ -407,7 +408,7 @@
 
 <details>
 <summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=6"> 조합론</a></summary>
-<div markdown="1">       
+<div markdown="1">
 <pre>
 - <a href="https://www.acmicpc.net/problem/15791">15791. 세진이의 미팅</a>
 - <a href="https://www.acmicpc.net/problem/17205">17205. 진우의 비밀번호</a>
