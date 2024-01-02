@@ -1,4 +1,4 @@
-package test.n30985;
+package dijkstra.n30985;
 
 import java.io.*;
 import java.util.*;
