@@ -227,6 +227,7 @@
 - <a href="https://www.acmicpc.net/problem/14003">14003. 가장 긴 증가하는 부분 수열 5</a>
 - <a href="https://www.acmicpc.net/problem/1477">1477. 휴게소 세우기</a>
 - <a href="https://www.acmicpc.net/problem/3079">3079. 입국심사</a>
+- <a href="https://www.acmicpc.net/problem/24887">24887. 최대한의 휴식</a>
 </div>
 </details>
 
