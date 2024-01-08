@@ -453,3 +453,11 @@
 - <a href="https://www.acmicpc.net/problem/1865">1865. 웜홀</a>
 </div>
 </details>
+
+<details>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=171"> 순열 사이클 분할</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://www.acmicpc.net/problem/10451">10451. 순열 사이클</a>
+</div>
+</details>
