@@ -173,6 +173,7 @@
 - <a href="https://www.acmicpc.net/problem/1083">1083. 소트</a>
 - <a href="https://www.acmicpc.net/problem/2258">2258. 정육점</a>
 - <a href="https://www.acmicpc.net/problem/2513">2513. 통학버스</a>
+- <a href="https://www.acmicpc.net/problem/18768">18768. 팀 배정</a>
 </pre>
 </div>
 </details>
