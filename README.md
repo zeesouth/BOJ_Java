@@ -64,6 +64,7 @@
 - <a href="https://www.acmicpc.net/problem/7579">7579. 앱</a>
 - <a href="https://www.acmicpc.net/problem/2091">2091. 동전</a>
 - <a href="https://www.acmicpc.net/problem/17181">17181. 나랏말싸미 America와 different~</a>
+- <a href="https://www.acmicpc.net/problem/13398">13398. 연속합 2</a>
 </pre>
 </div>
 </details>
