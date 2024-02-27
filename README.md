@@ -236,6 +236,7 @@
 - <a href="https://www.acmicpc.net/problem/24887">24887. 최대한의 휴식</a>
 - <a href="https://www.acmicpc.net/problem/28305">28305. 세미나 배정</a>
 - <a href="https://www.acmicpc.net/problem/1939">1939. 중량제한</a>
+- <a href="https://www.acmicpc.net/problem/15732">15732. 도토리 숨기기</a>
 </div>
 </details>
 
