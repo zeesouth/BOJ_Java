@@ -454,6 +454,7 @@
 <pre>
 - <a href="https://www.acmicpc.net/problem/1167">1167. 트리의 지름</a>
 - <a href="https://www.acmicpc.net/problem/1967">1967. 트리의 지름</a>
+- <a href="https://www.acmicpc.net/problem/28270">28270. Marked-Numbered</a>
 </div>
 </details>
 
