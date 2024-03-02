@@ -138,6 +138,7 @@
 - <a href="https://www.acmicpc.net/problem/1175">1175. 배달</a>
 - <a href="https://www.acmicpc.net/problem/1039">1039. 교환</a>
 - <a href="https://www.acmicpc.net/problem/16947">16947. 서울 지하철 2호선</a>
+- <a href="https://www.acmicpc.net/problem/16932">16932. 모양 만들기</a>
 </pre>
 </div>
 </details>
