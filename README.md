@@ -150,6 +150,7 @@
 <pre>
 - <a href="https://www.acmicpc.net/problem/11437">11437. LCA</a>
 - <a href="https://www.acmicpc.net/problem/11438">11438. LCA 2</a> (Segment Tree, DP)
+- <a href="https://www.acmicpc.net/problem/26216">26216. 은나무</a>
 </pre>
 </div>
 </details>
