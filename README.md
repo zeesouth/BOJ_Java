@@ -194,6 +194,7 @@
 - <a href="https://www.acmicpc.net/problem/14464">14464. 소가 길을 건너간 이유 4</a>
 - <a href="https://www.acmicpc.net/problem/1781">1781. 컵라면</a>
 - <a href="https://www.acmicpc.net/problem/1655">1655. 가운데를 말해요</a>
+- <a href="https://www.acmicpc.net/problem/30054">30054. 웨이팅</a>
 </pre>
 </div>
 </details>
