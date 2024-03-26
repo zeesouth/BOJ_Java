@@ -487,3 +487,11 @@
 - <a href="https://www.acmicpc.net/problem/17302">17302. 흰색으로 만들기</a>
 </div>
 </details>
+
+<details>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=102"> 구현</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://www.acmicpc.net/problem/7682">7682. 틱택토</a>
+</div>
+</details>
