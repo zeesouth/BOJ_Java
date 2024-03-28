@@ -241,6 +241,7 @@
 - <a href="https://www.acmicpc.net/problem/28305">28305. 세미나 배정</a>
 - <a href="https://www.acmicpc.net/problem/1939">1939. 중량제한</a>
 - <a href="https://www.acmicpc.net/problem/15732">15732. 도토리 숨기기</a>
+- <a href="https://www.acmicpc.net/problem/26652">26652. 성향 성장의 비약</a>
 </div>
 </details>
 
