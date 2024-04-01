@@ -494,5 +494,6 @@
 <div markdown="1">       
 <pre>
 - <a href="https://www.acmicpc.net/problem/7682">7682. 틱택토</a>
+- <a href="https://www.acmicpc.net/problem/16569">16569. 화산쇄설류</a>
 </div>
 </details>
