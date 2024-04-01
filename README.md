@@ -412,6 +412,7 @@
 - <a href="https://www.acmicpc.net/problem/1629">1629. 곱셈</a>
 - <a href="https://www.acmicpc.net/problem/10830">10830. 행렬 제곱</a>
 - <a href="https://www.acmicpc.net/problem/2263">2263. 트리의 순회</a>
+- <a href="https://www.acmicpc.net/problem/18291">18291. 비요뜨의 징검다리 건너기</a>
 </pre>
 </div>
 </details>
