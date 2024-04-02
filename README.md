@@ -498,3 +498,11 @@
 - <a href="https://www.acmicpc.net/problem/16569">16569. 화산쇄설류</a>
 </div>
 </details>
+
+<details>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=154"> 연결리스트</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://www.acmicpc.net/problem/3217">3217. malloc</a>
+</div>
+</details>
