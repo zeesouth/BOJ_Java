@@ -324,7 +324,7 @@
 </details>
 
 <details>
-<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=139"> 누적합 (Prefix Sum)</a></summary>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=139"> 누적 합 (Prefix Sum)</a></summary>
 <div markdown="1">       
 <pre>
 - <a href="https://www.acmicpc.net/problem/3020">3020. 개똥벌레</a>
@@ -345,6 +345,7 @@
 - <a href="https://www.acmicpc.net/problem/21757">21757. 나누기</a>
 - <a href="https://www.acmicpc.net/problem/3114">3114. 사과와 바나나</a>
 - <a href="https://www.acmicpc.net/problem/10800">10800. 컬러볼</a>
+- <a href="https://www.acmicpc.net/problem/2173">2173. 양파깡 만들기</a>
 </pre>
 </div>
 </details>
