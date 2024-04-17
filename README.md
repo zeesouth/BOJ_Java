@@ -349,6 +349,7 @@
 - <a href="https://www.acmicpc.net/problem/3114">3114. 사과와 바나나</a>
 - <a href="https://www.acmicpc.net/problem/10800">10800. 컬러볼</a>
 - <a href="https://www.acmicpc.net/problem/2173">2173. 양파깡 만들기</a>
+- <a href="https://www.acmicpc.net/problem/20159">20159. 동작 그만. 밑장 빼기냐?</a>
 </pre>
 </div>
 </details>
