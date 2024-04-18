@@ -272,6 +272,7 @@
 - <a href="https://www.acmicpc.net/problem/17471">17471. 게리맨더링</a>
 - <a href="https://www.acmicpc.net/problem/1062">1062. 가르</a>
 - <a href="https://www.acmicpc.net/problem/1079">1079. 마피아</a>
+- <a href="https://www.acmicpc.net/problem/19942">19942. 다이어트</a>
 </pre>
 </div>
 </details>
