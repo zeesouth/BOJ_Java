@@ -185,6 +185,7 @@
 - <a href="https://www.acmicpc.net/problem/2513">2513. 통학버스</a>
 - <a href="https://www.acmicpc.net/problem/18768">18768. 팀 배정</a>
 - <a href="https://www.acmicpc.net/problem/1052">1052. 물병</a>
+- <a href="https://www.acmicpc.net/problem/12429">12429. 생존자 (Small)</a>
 </pre>
 </div>
 </details>
