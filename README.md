@@ -66,6 +66,7 @@
 - <a href="https://www.acmicpc.net/problem/17181">17181. 나랏말싸미 America와 different~</a>
 - <a href="https://www.acmicpc.net/problem/13398">13398. 연속합 2</a>
 - <a href="https://www.acmicpc.net/problem/16639">16639. 괄호 추가하기 3</a>
+- <a href="https://www.acmicpc.net/problem/28218">28218. 격자 게임</a>
 </pre>
 </div>
 </details>
@@ -288,6 +289,7 @@
 - <a href="https://www.acmicpc.net/problem/5719">5719. 거의 최단 경로</a>
 - <a href="https://www.acmicpc.net/problem/1854">1854. K번째 최단경로 찾기</a>
 - <a href="https://www.acmicpc.net/problem/9376">9376. 탈옥</a>
+- <a href="https://www.acmicpc.net/problem/14938">14938. 서강그라운드</a>
 - <a href="https://www.acmicpc.net/problem/14938">14938. 서강그라운드</a>
 - <a href="https://www.acmicpc.net/problem/10282">10282. 해킹</a>
 - <a href="https://www.acmicpc.net/problem/2176">2176. 합리적인 이동경로</a>
