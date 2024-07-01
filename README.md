@@ -355,6 +355,7 @@
 - <a href="https://www.acmicpc.net/problem/10800">10800. 컬러볼</a>
 - <a href="https://www.acmicpc.net/problem/2173">2173. 양파깡 만들기</a>
 - <a href="https://www.acmicpc.net/problem/20159">20159. 동작 그만. 밑장 빼기냐?</a>
+- <a href="https://www.acmicpc.net/problem/19951">19951. 태상이의 훈련소 생활</a>
 </pre>
 </div>
 </details>
