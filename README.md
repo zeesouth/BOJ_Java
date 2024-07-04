@@ -492,6 +492,7 @@
 - <a href="https://www.acmicpc.net/problem/10451">10451. 순열 사이클</a>
 - <a href="https://www.acmicpc.net/problem/25577">25577. 열 정렬정렬 정</a>
 - <a href="https://www.acmicpc.net/problem/6505">6505. 문자열 디코딩</a>
+- <a href="https://www.acmicpc.net/problem/27531">27531. 치즈</a>
 </div>
 </details>
 
