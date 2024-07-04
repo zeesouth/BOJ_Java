@@ -68,6 +68,7 @@
 - <a href="https://www.acmicpc.net/problem/16639">16639. 괄호 추가하기 3</a>
 - <a href="https://www.acmicpc.net/problem/28218">28218. 격자 게임</a>
 - <a href="https://www.acmicpc.net/problem/1988">1988. 낮잠 시간</a>
+- <a href="https://www.acmicpc.net/problem/20555">20555. 타자연습</a>
 </pre>
 </div>
 </details>
