@@ -85,6 +85,7 @@
 - <a href="https://www.acmicpc.net/problem/1135">1135. 뉴스 전하기</a>
 - <a href="https://www.acmicpc.net/problem/13325">13325. 이진 트리</a>
 - <a href="https://www.acmicpc.net/problem/14267">14267. 회사 문화 1</a>
+- <a href="https://www.acmicpc.net/problem/23887">23887. 프린트 전달</a>
 </pre>
 </div>
 </details>
