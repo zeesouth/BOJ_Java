@@ -116,6 +116,7 @@
 - <a href="https://www.acmicpc.net/problem/13458">13458. 시험 감독</a>
 - <a href="https://www.acmicpc.net/problem/1064">1064. 평행사변형</a>
 - <a href="https://www.acmicpc.net/problem/18225">18225. 당구공을 넣자</a>
+- <a href="https://www.acmicpc.net/problem/2142">2142. 정돈된 배열</a>
 </pre>
 </div>
 </details>
