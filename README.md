@@ -118,6 +118,7 @@
 - <a href="https://www.acmicpc.net/problem/18225">18225. 당구공을 넣자</a>
 - <a href="https://www.acmicpc.net/problem/2142">2142. 정돈된 배열</a>
 - <a href="https://www.acmicpc.net/problem/22964">22964. conv1d</a>
+- <a href="https://www.acmicpc.net/problem/14864">14864. 줄서기</a>
 </pre>
 </div>
 </details>
