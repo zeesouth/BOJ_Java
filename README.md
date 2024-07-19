@@ -326,12 +326,13 @@
 </details>
 
 <details>
-<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=125"> 부루트포스 (Brute Force)</a></summary>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=125"> 브루트포스 (Brute Force)</a></summary>
 <div markdown="1">       
 <pre>
 - <a href="https://www.acmicpc.net/problem/15660">15660. 테르토미노 (2)</a>
 - <a href="https://www.acmicpc.net/problem/1025">1025. 제곱수 찾기</a>
 - <a href="https://www.acmicpc.net/problem/1954">1954. 화학실험</a>
+- <a href="https://www.acmicpc.net/problem/15659">15659. 연산자 끼워넣기 (3)</a>
 </pre>
 </div>
 </details>
