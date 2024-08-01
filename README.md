@@ -477,6 +477,7 @@
 <div markdown="1">
 <pre>
 - <a href="https://www.acmicpc.net/problem/16562">16562. 친구비</a>
+- <a href="https://www.acmicpc.net/problem/18116">18116. 로봇 조립</a>
 </div>
 </details>
 
