@@ -196,6 +196,7 @@
 - <a href="https://www.acmicpc.net/problem/18768">18768. 팀 배정</a>
 - <a href="https://www.acmicpc.net/problem/1052">1052. 물병</a>
 - <a href="https://www.acmicpc.net/problem/12429">12429. 생존자 (Small)</a>
+- <a href="https://www.acmicpc.net/problem/19539">19539. 사과나무</a>
 </pre>
 </div>
 </details>
