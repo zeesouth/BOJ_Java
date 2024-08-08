@@ -72,6 +72,7 @@
 - <a href="https://www.acmicpc.net/problem/2333">2333. 생존과 탈출</a>
 - <a href="https://www.acmicpc.net/problem/16169">16169. 수행 시간</a>
 - <a href="https://www.acmicpc.net/problem/20667">20667. 크롬</a>
+- <a href="https://www.acmicpc.net/problem/27980">27980. 문자열 게임</a>
 </pre>
 </div>
 </details>
