@@ -546,3 +546,11 @@
 - <a href="https://www.acmicpc.net/problem/1613">1613. 역사</a>
 </div>
 </details>
+
+<details>
+<summary><a href="https://www.acmicpc.net/problemset?sort=ac_desc&algo=97"> 정렬</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://www.acmicpc.net/problem/17432">17432. 정렬</a>
+</div>
+</details>
