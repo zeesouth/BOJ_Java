@@ -529,6 +529,7 @@
 <pre>
 - <a href="https://www.acmicpc.net/problem/7682">7682. 틱택토</a>
 - <a href="https://www.acmicpc.net/problem/16569">16569. 화산쇄설류</a>
+- <a href="https://www.acmicpc.net/problem/17480">17480. 개구쟁이 준석이</a>
 </div>
 </details>
 
